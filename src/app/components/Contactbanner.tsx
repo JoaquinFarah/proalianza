@@ -1,9 +1,12 @@
 
   const stats = [
-    { name: 'Bodegas y empresas', value: '12' },
-    { name: 'Cursos disponibles', value: '30' },
-    { name: 'Horas de capacitacion', value: '4000+' },
-    { name: 'Compromiso', value: 'Ilimitado' },
+    { name: 'Inspecciones de integridad (n/II)', value: '+200' },
+    { name: 'Inspecciones visuales (n/I)', value: '+600' },
+    { name: 'Acciones de mejoras gestionadas', value: '+7000' },    
+    { name: 'Autonomos recargados', value: '+600' },
+    { name: 'Detectores de gas calibrados', value: '+1000' },
+    { name: 'Servicios de inspección y gestión de acciones: Perforacion/ Workover/ Pulling/ Flush by/ Eq. Mineros/ Slik Line/ Wire Line/ Eq. de cementación & Fractura', value: '7' },
+
   ]
   
   export default function ContactBanner() {
