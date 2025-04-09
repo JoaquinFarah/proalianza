@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { EnvelopeIcon, MapPinIcon, PhoneIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
+import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
 
 
 export default function Footer() {
@@ -57,30 +57,25 @@ export default function Footer() {
             <div className="w-full lg:w-4/8 px-4">
                 <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2">Contacto</span>
                 <ul className="list-unstyled">
-                <li>
-                    <div className="flex items-center gap-3">
-                        <PhoneIcon className="w-5 h-5 text-gray-500" />
-                        <p>+54 (261)-578891</p>
-                    </div>
-                </li> 
+                
                 <li>
                     <div className="flex items-center gap-3">
                         <DevicePhoneMobileIcon className="w-5 h-5 text-gray-500" />
-                        <p>+549261889542</p>
+                        <p>+54 9 2616 84-8392</p>
                     </div>
                 </li>                            
                 <li>
                     <div className="flex items-center gap-3">
                         <EnvelopeIcon className="w-5 h-5 text-gray-500" />
-                        <p>infopa@gmail.com</p>
+                        <p>proalianzamdz@gmail.com</p>
                     </div>
                 </li>                
                 <li>
                     <div className="flex items-start gap-3">
                         <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
                         <div>
-                            <p>Coronel rodriguez 257</p>
-                            <p>Luján, Mendoza, CP.5500</p>
+                            <p>Cnel.Terrada 3907 </p>
+                            <p>Perdriel, Luján de Cuyo, Mendoza</p>
                         </div>
                     </div>
                 </li>   

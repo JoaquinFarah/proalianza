@@ -1,6 +1,6 @@
 'use client';
 
-import { EnvelopeIcon, MapPinIcon, PhoneIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
+import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
 
 export default function ContactForm() {
   return (
@@ -13,23 +13,20 @@ export default function ContactForm() {
             Nuestros horarios de atención son de lunes a viernes de 9:00 a 18:00. Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte.
           </p>
           <div className="space-y-4 text-gray-700">            
-            <div className="flex items-center gap-3">
-              <PhoneIcon className="w-5 h-5 text-gray-500" />
-              <p>+54 (261)-578891</p>
-            </div>
+            
             <div className="flex items-center gap-3">
               <DevicePhoneMobileIcon className="w-5 h-5 text-gray-500" />
-              <p>+549261889542</p>
+              <p>+54 9 2616 84-8392</p>
             </div>
             <div className="flex items-center gap-3">
               <EnvelopeIcon className="w-5 h-5 text-gray-500" />
-              <p>infopa@gmail.com</p>
+              <p>proalianzamdz@gmail.com </p>
             </div>
             <div className="flex items-start gap-3">
               <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
               <div>
-                <p>Coronel rodriguez 257</p>
-                <p>Luján, Mendoza, CP.5500</p>
+                <p>Cnel.Terrada 3907 </p>
+                <p>Perdriel, Luján de Cuyo, Mendoza</p>
               </div>
             </div>            
           </div>          
