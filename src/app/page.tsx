@@ -51,7 +51,7 @@ export default function Index() {
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
 
         <Services />
-        <Computer />
+        
         <Device />
         <Computer />
       </div>
