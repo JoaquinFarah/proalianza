@@ -36,7 +36,7 @@ export default function HeroSection() {
             <div className="lg:max-w-lg">
               <p className="text-base/7 font-semibold text-indigo-600">ProAlianza</p>
               <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              ¿Quiénes somos?
+              La mejor elección
               </h1>
               <p className="mt-6 text-xl/8 text-gray-700">
               En Proalianza, nos enorgullece ofrecer soluciones de alta calidad que satisfacen las necesidades de nuestros clientes. Con años de experiencia en el sector, nos hemos consolidado como líderes en el campo de la seguridad laboral.
