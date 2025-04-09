@@ -48,19 +48,14 @@ export default function ProfilePage() {
                 Pro Alianza® Es una empresa de Servicios de Asistencia Técnica, Capacitación, Entrenamiento, Calibración de Sistemas de Detección y Comercialización de Productos para la Seguridad bajo el esquema de Sociedad de Acciones Simplificada (S.A.S). Si bien la empresa es reciente, brinda un servicio único en su tipo contando a su vez con un equipo interdisciplinario con 30 años de experiencia en funciones claves del rubro Oil & Gas e industrial.
               </p>
 
-              <h1 className="mt-16 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+              <h1 className="mt-32 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                 Nuestra Misión
               </h1>
               <p className="mt-6 text-xl leading-8">
                 Volcar nuestra experiencia en el análisis de operaciones industriales con el fin de obtener su optimización, mejorando la eficiencia y la seguridad al mismo tiempo que se reducen los costos.
               </p>
 
-              <h1 className="mt-16 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-                Nuestra Visión
-              </h1>
-              <p className="mt-6 text-xl leading-8">
-                Ser una empresa líder en nuestra especialidad brindando servicios de excelencia que superen las expectativas de nuestros clientes y contribuyan al desarrollo sostenible.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -68,7 +63,7 @@ export default function ProfilePage() {
 
 
       {/* Sección descriptiva */}
-      <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-8">
+      <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
 
           <div className="lg:pr-4 order-2 lg:order-1">
