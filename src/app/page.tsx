@@ -31,7 +31,7 @@ export default function Index() {
         {/* <div className="absolute top-1/2 left-1/5 transform -translate-x-1/7 -translate-y-19 text-white text-5xl font-semibold text-center backdrop-blur-sm bg-black/30 rounded-lg p-10 ">
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div> */}
-        <div className="absolute top-1/2 left-1/5 transform -translate-x-1/7 -translate-y-19 text-white text-5xl font-semibold text-center backdrop-blur-sm bg-black/30 rounded-lg p-10 ">
+        <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div>
       </div>
