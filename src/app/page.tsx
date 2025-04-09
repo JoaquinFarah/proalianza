@@ -21,11 +21,16 @@ export default function Index() {
           muted
           loop
         >
-          <source src="belen.mp4" type="video/mp4" />
+          {/* <source src="belen.mp4" type="video/mp4" /> */}
+          <source src="recorte.mp4" type="video/mp4" />
+
           Tu navegador no soporta el video.
         </video>
         
-        {/* Mensaje sobre el video */}
+        {/* Mensaje sobre el video tapando marca de agua */}
+        {/* <div className="absolute top-1/2 left-1/5 transform -translate-x-1/7 -translate-y-19 text-white text-5xl font-semibold text-center backdrop-blur-sm bg-black/30 rounded-lg p-10 ">
+          <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Precisión que impulsa tu industria, formación que salva vidas.</p>
+        </div> */}
         <div className="absolute top-1/2 left-1/5 transform -translate-x-1/7 -translate-y-19 text-white text-5xl font-semibold text-center backdrop-blur-sm bg-black/30 rounded-lg p-10 ">
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Precisión que impulsa tu industria, formación que salva vidas.</p>
         </div>

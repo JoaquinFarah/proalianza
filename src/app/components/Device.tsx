@@ -12,7 +12,7 @@ export default function Device() {
           {/* <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-light.png" className="dark:hidden w-[272px] h-[572px]" alt=""></img> */}
           <div className="relative h-screen">
           <video 
-              className="absolute bottom-15 left-0 h-full object-cover bg-black"
+              className="absolute bottom-21 left-0 h-full object-cover bg-black"
             autoPlay
             muted
             loop
