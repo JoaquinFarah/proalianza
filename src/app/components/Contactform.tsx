@@ -31,11 +31,11 @@ export default function ContactForm() {
             </div>            
           </div>          
         </div> 
-        {/* Right side */}      
-        <div className="mt-6">
+        {/* Right side */} 
+          <div className="mt-6">
             <iframe
               title="Google Map"
-              src="https://www.google.com/maps?q=Luján%20de%20Cuyo%2C%20Mendoza%2C%20Argentina&output=embed"
+              src="https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed"
               className="w-full h-80 rounded-md border border-gray-300 shadow-lg"
               loading="lazy"
               allowFullScreen
