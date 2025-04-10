@@ -77,7 +77,7 @@ export default function Footer() {
                 
                 <li>
                     <div className="flex items-center gap-3">
-                        <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer">
+                        <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-600">
                         <DevicePhoneMobileIcon className="w-5 h-5 text-gray-500" />
                         <p>+54 9 2616 84-8392</p>
                         </button>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <li>
                     <div className="flex items-center gap-3">                        
                         <EnvelopeIcon className="w-5 h-5 text-gray-500" />
-                        <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer">
+                        <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-600">
                         <p>proalianzamdz@gmail.com</p>
                         </button>
                     </div>
