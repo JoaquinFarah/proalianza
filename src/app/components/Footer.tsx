@@ -40,7 +40,9 @@ export default function Footer() {
         <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
             <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <Link href="/pages/service">
                 <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2">Servicios</span>
+                </Link>
                 <ul className="list-unstyled">
                 <li>
                     <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Capacitaciones</p>
@@ -57,7 +59,9 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="w-full lg:w-4/8 px-4">
+                <Link href="/pages/contact">
                 <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2">Contacto</span>
+                </Link>
                 <ul className="list-unstyled">
                 
                 <li>
