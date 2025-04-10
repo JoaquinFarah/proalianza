@@ -52,7 +52,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-top mb-6">
             <div className="w-full lg:w-4/12 px-4 ml-auto">
                 <Link href="/pages/service">
-                <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2">Servicios</span>
+                <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2 hover:text-blue-600">Servicios</span>
                 </Link>
                 <ul className="list-unstyled">
                 <li>
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
             <div className="w-full lg:w-4/8 px-4">
                 <Link href="/pages/contact">
-                <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2">Contacto</span>
+                <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2 hover:text-blue-600">Contacto</span>
                 </Link>
                 <ul className="list-unstyled">
                 
