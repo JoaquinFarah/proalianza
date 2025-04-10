@@ -15,7 +15,7 @@ export default function Footer() {
     const handleMail = () => {     
         const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
         window.open(url, '_blank');
-    };
+    };    
   return (    
     <footer style={{ backgroundColor: '#e5771b' }} className="relative bg-gradient-to-b from-gray-50 mt-10 pt-8 pb-6">
     <div className="container mx-auto px-4">
@@ -94,9 +94,9 @@ export default function Footer() {
                 <li>
                     <div className="flex items-start gap-3">
                         <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
-                        <div>
-                            <p>Cnel.Terrada 3907 </p>
-                            <p>Perdriel, Luján de Cuyo, Mendoza</p>
+                        <div>                        
+                            <p>Cnel.Terrada 3907 - 
+                            Perdriel, Luján de Cuyo, Mendoza</p>                       
                         </div>
                     </div>
                 </li>   

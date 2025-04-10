@@ -7,11 +7,15 @@ export default function ContactForm() {
     const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
-};
-const handleMail = () => {     
-    const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
+  };
+  const handleMail = () => {     
+      const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
+      window.open(url, '_blank');
+  };
+  const handleAddress = () => {     
+    const url = `https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed`;
     window.open(url, '_blank');
-};
+  };
   return (
     <section className="bg-white text-gray-800 py-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
@@ -35,8 +39,9 @@ const handleMail = () => {
             <div className="flex items-start gap-3">
               <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
               <div>
-                <p>Cnel.Terrada 3907 </p>
-                <p>Perdriel, Luján de Cuyo, Mendoza</p>
+              <button onClick={handleAddress} className="flex items-center gap-3 hover:cursor-pointer hover:text-amber-500">
+                <p>Cnel.Terrada 3907 - Perdriel, Luján de Cuyo, Mendoza</p>
+                </button>
               </div>
             </div>            
           </div>          
