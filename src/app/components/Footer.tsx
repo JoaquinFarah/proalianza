@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -5,6 +6,16 @@ import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon } from '@heroicons/reac
 
 
 export default function Footer() {
+    const handleClick = () => {
+        const phoneNumber = '2616848392';
+        const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
+    };
+    const handleMail = () => {     
+        const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
+        window.open(url, '_blank');
+    };
   return (    
     <footer style={{ backgroundColor: '#e5771b' }} className="relative bg-gradient-to-b from-gray-50 mt-10 pt-8 pb-6">
     <div className="container mx-auto px-4">
@@ -66,14 +77,18 @@ export default function Footer() {
                 
                 <li>
                     <div className="flex items-center gap-3">
+                        <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer">
                         <DevicePhoneMobileIcon className="w-5 h-5 text-gray-500" />
                         <p>+54 9 2616 84-8392</p>
+                        </button>
                     </div>
                 </li>                            
                 <li>
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3">                        
                         <EnvelopeIcon className="w-5 h-5 text-gray-500" />
+                        <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer">
                         <p>proalianzamdz@gmail.com</p>
+                        </button>
                     </div>
                 </li>                
                 <li>
