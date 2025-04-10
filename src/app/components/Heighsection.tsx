@@ -3,7 +3,7 @@ import React from "react";
 import { ShieldCheckIcon } from '@heroicons/react/20/solid';
 
 
-export default function Heighsection() {
+export default function HeighSection() {
   return (
   <div className="w-full max-w-[90%] mx-auto bg-[#F5F5F5] pt-8 rounded-3xl mt-20 ring-2 ring-gray-300 shadow-lg">
     <h2 className="font-light text-2xl md:text-4xl text-center">
