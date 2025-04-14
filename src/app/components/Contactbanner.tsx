@@ -5,7 +5,7 @@
     { name: 'Autonomos recargados', value: '+750' },
     { name: 'Detectores de gas calibrados', value: '+1500' },
     { name: 'Acciones de mejoras gestionadas (solo en los últimos 4 años)', value: '+7000' },
-    { name: 'Servicios de inspección y gestión de acciones: Perforacion/ Workover/ Pulling/ Flush by/ Eq. Mineros/ Slik Line/ Wire Line/ Eq. de cementación & Fractura', value: '7' },
+    { name: 'Servicios de inspección y gestión de acciones de mejora: Perforación/ Workover/ Pulling/ Flush by/ Eq. Mineros/ Slik Line/ Wire Line/ Eq. de cementación & Fractura', value: '7' },
 
   ]
   
