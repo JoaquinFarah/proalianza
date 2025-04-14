@@ -24,7 +24,7 @@ export default function AboutPage() {
       </div>
       <div>
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Por qué elegirnos?</h1>
-        <p className="text-2xl flex justify-center items-center mt-10 px-20">En un mundo donde la seguridad y la eficiencia son primordiales, somos tu nuevo aliado estratégico. Con más de 20 años de experiencia en el sector, ofrecemos soluciones integrales que garantizan la protección de tus trabajadores y la optimización de tus recursos</p>        
+        <p className="text-2xl flex justify-center text-justify items-center mt-10 px-20">En un mundo donde la seguridad y la eficiencia son primordiales, somos tu nuevo aliado estratégico. Con más de 20 años de experiencia en el sector, ofrecemos soluciones integrales que garantizan la protección de tus trabajadores y la optimización de tus recursos</p>        
         {/* Three Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 px-10">
           <div className="flex flex-col items-center text-center">
