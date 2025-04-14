@@ -9,49 +9,39 @@ export default function AirSection() {
     <h2 className="font-light text-2xl md:text-4xl text-center">
       <br/> <span className="font-sans from-neutral-400 text-3xl font-bold">Equipos Autónomos y Detectores de Gases</span>
     </h2>
-    <div className="mb-10 bg-[#F5F5F5] flex flex-col lg:flex-row items-center justify-around pb-10 px-5 rounded-3xl gap-8">
+    <div className="mb-10 mt-10 bg-[#F5F5F5] flex flex-col lg:flex-row items-center justify-center pb-10 px-5 rounded-3xl gap-8">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-start justify-start py-6 gap-6"> 
 
             <div className="flex items-center justify-center gap-6 p-2 w-full max-w-md">
               <span>
-                <ShieldCheckIcon className="w-5 h-5 text-amber-600" />
+                <ShieldCheckIcon className="w-5 h-5 text-amber-500" />
               </span>
               <div className="flex flex-col items-start justify-start gap-1 w-full"> 
-                <h3 className=" md:text-xl font-medium">TITULO</h3>
-                <p className="font-light text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem vitae cum quis voluptate placeat omnis a eum rem nobis, ut autem qui odit, natus dignissimos aperiam soluta. Tenetur, recusandae nisi. </p>
+                <h3 className="md:text-xl font-medium">Capacitación uso equipo autónomo</h3>                
               </div>
             </div>
 
             <div className="flex items-center justify-center gap-6 p-2 w-full max-w-md">
               <span>
-                <ShieldCheckIcon className="w-5 h-5 text-amber-600" />
+                <ShieldCheckIcon className="w-5 h-5 text-amber-500" />
               </span>
               <div className="flex flex-col items-start justify-start gap-1 w-full"> 
-                <h3 className=" md:text-xl font-medium">TITULO</h3>
-                <p className="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates laborum cum esse quia tenetur quidem nam atque sunt pariatur reprehenderit velit a ipsam, officia fugit vitae totam architecto amet? </p>
+                <h3 className="md:text-xl font-medium">Capacitación uso detectores de gases</h3>                
               </div>
             </div>
 
             <div className="flex items-center justify-center gap-6 p-2 w-full max-w-md">
               <span>
-                <ShieldCheckIcon className="w-5 h-5 text-amber-600" />
+                <ShieldCheckIcon className="w-5 h-5 text-amber-500" />
               </span>
               <div className="flex flex-col items-start justify-start gap-1 w-full"> 
-                <h3 className=" md:text-xl font-medium">TITULO </h3>
-                <p className="font-light text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, modi, ad nulla numquam optio, quae fugit praesentium aut quaerat accusamus quis earum? Impedit odio natus minima exercitationem, sapiente nobis expedita. </p>
+                <h3 className="md:text-xl font-medium">Carga de cilindros de alta y baja presión</h3>                
               </div>
             </div>
 
-            <div className="flex items-center justify-center gap-6 p-2 w-full max-w-md">
-              <span>
-                <ShieldCheckIcon className="w-5 h-5 text-amber-600" />
-              </span>
-              <div className="flex flex-col items-start justify-start gap-1 w-full"> 
-                <h3 className=" md:text-xl font-medium">TITULO </h3>
-                <p className="font-light text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatibus! Minus earum atque laudantium. Minus unde explicabo nam corrupti animi fugit deserunt aliquid pariatur nisi. Quae sed odio amet saepe! </p>
-              </div>
-            </div>
+
+            
         </div>
       </div>
 
