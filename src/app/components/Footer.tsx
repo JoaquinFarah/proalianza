@@ -33,9 +33,9 @@ export default function Footer() {
               />
             </Link>
           </div>
-            <h4 className="text-3xl font-semibold text-blueGray-700">PROALIANZA</h4>
+            {/* <h4 className="text-3xl font-semibold text-blueGray-700">PROALIANZA</h4> */}
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-            Contamos con una amplia experiencia en el ámbito industrial, lo que nos convierte en su mejor elección.
+            Somos un equipo nuevo pero con amplia experiencia en el ámbito industrial, lo q nos convierte en su mejor elección
             </h5>
 
             {/* Espacio para cuando esten las redes sociales */}
