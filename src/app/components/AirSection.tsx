@@ -7,7 +7,7 @@ export default function AirSection() {
   return (
   <div className="w-full max-w-[90%] mx-auto bg-[#F5F5F5] pt-8 rounded-3xl mt-20 ring-2 ring-gray-300 shadow-lg">
     <h2 className="font-light text-2xl md:text-4xl text-center">
-      <br/> <span className="font-sans from-neutral-400 text-3xl font-bold">Equipos Autonomos y Detectores de Gases</span>
+      <br/> <span className="font-sans from-neutral-400 text-3xl font-bold">Equipos Autónomos y Detectores de Gases</span>
     </h2>
     <div className="mb-10 bg-[#F5F5F5] flex flex-col lg:flex-row items-center justify-around pb-10 px-5 rounded-3xl gap-8">
       <div className="flex flex-col items-center justify-center">
