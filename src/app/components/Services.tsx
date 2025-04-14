@@ -3,23 +3,15 @@ import Image from 'next/image';
 
 const callout = [   
   {
-    name: 'Capacitación y venta de equipos para trabajos en altura',      
-    description: 'Nuestros equipamientoss de altura son ideales para trabajos en espacios confinados, como túneles y pozos. Ofrecemos soluciones personalizadas para cada necesidad, garantizando la seguridad y eficiencia en el trabajo.',
+    name: 'Brindamos capacitaciones y venta de equipos para trabajos en altura',      
+    description: 'Nuestros equipamientos de altura son ideales para trabajos en espacios confinados, como túneles y pozos. Ofrecemos soluciones personalizadas para cada necesidad, garantizando la seguridad y eficiencia en el trabajo.',
     imageSrc: '/altura.jpg',
     imageAlt: 'serv1',
     width: 1000,
     height: 1000,    
   }, 
-  // {
-  //   name: 'Capacitación trabajos en altura con elementos de X-URBAN',
-  //   description: 'Capacitamos a los brigadistas en el uso de nuestros productos y brindamos asesoramiento técnico para garantizar su correcto funcionamiento. Nuestro equipo de expertos está disponible para resolver cualquier duda o inquietud que puedan tener nuestros clientes.',
-  //   imageSrc: '/xurban.jpg',
-  //   imageAlt: 'serv2',
-  //   width: 1000,
-  //   height: 1000,
-  // },  
   {
-    name: 'Capacitación en Espacios Confinados',
+    name: 'Apoyando a los brigadistas con las capacitaciones en Espacios Confinados',
     description: 'Ofrecemos capacitación especializada en espacios confinados, brindando a los brigadistas las herramientas necesarias para trabajar de manera segura y eficiente. Nuestros cursos incluyen teoría y práctica, asegurando que los participantes adquieran los conocimientos necesarios para enfrentar situaciones de riesgo.',    
     imageSrc: '/bajando.jpg',
     imageAlt: 'serv3',
@@ -52,7 +44,7 @@ const callout = [
   }, 
   {
     name: 'Calibración y Mantenimiento preventivo para equipos detectores de gases',      
-    description: 'Siempre al dia con los últimos avances en tecnología de detección de gases, ofrecemos calibración y mantenimiento preventivo de equipos detectores de gas. Nuestros técnicos especializados garantizan el correcto funcionamiento de los equipos, asegurando la seguridad de los trabajadores.',
+    description: 'Siempre al día con los últimos avances en tecnología de detección de gases, realizamos calibración y mantenimiento preventivo de equipos detectores de gas. Nuestros técnicos especializados garantizan el correcto funcionamiento de los equipos, asegurando la seguridad de los trabajadores.',
     imageSrc: '/calibracion.jpg',
     imageAlt: 'serv1',
     width: 1000,
