@@ -46,6 +46,34 @@ const Navbar: React.FC = () => {
             Contacto
             </Link> 
 
+
+
+        <div className="relative inline-block text-left">
+        <div className="group">
+        <button type="button" className="inline-flex justify-center items-center w-full px-4 focus:outline-none no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            Dropdown
+            <svg className="w-4 h-4 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+            </svg>
+        </button>
+
+        <div className="absolute left-0 w-40 origin-top-left backdrop-blur-lg rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible hover:bg-white/50 transition duration-300 ease-in-out" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            <div className="py-1">
+                <a href="#" className="block px-4 py-2  no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 1</a>
+                <a href="#" className="block px-4 py-2  no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 2</a>
+                <a href="#" className="block px-4 py-2  no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 2</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-50 no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 3</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-50 no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 4</a>
+                <a href="#" className="block px-4 py-2 hover:bg-gray-50 no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Option 5</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
           </div>
         </div>
       </div>
