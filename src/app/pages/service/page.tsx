@@ -7,6 +7,7 @@ import HeighSection from '@/app/components/Heighsection';
 import ConfinedSection from '@/app/components/Confinedsection';
 import AirSection from '@/app/components/AirSection';
 import TrainingSection from '@/app/components/Trainingsection';
+import HigienicSection from '@/app/components/Higienicsection';
 
 export default function ContactPage() {
   return (
@@ -29,6 +30,7 @@ export default function ContactPage() {
       <HeighSection />
       <ConfinedSection />
       <AirSection />
+      <HigienicSection />
       
     <Footer />
     </div>
