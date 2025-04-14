@@ -20,7 +20,7 @@ export default function ProfilePage() {
         />
         <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>
-            Especialistas en la búsqueda y obtención del límite técnico tanto del personal, herramientas y equipos
+            Especialistas en la búsqueda y obtención del límite técnico tanto del personal como de las herramientas y equipos
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@ export default function ProfilePage() {
                 Nuestra Misión
               </h1>
               <p className="mt-6 text-xl leading-8">
-                Volcar nuestra experiencia en el análisis de operaciones industriales con el fin de obtener su optimización, mejorando la eficiencia y la seguridad al mismo tiempo que se reducen los costos.
+                Volcar nuestra experiencia en el análisis de operaciones industriales con el fin de obtener su optimización, mejorando la eficiencia y la seguridad, al mismo tiempo que se reducen los costos.
               </p>
               <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                 Nuestro Criterio Industrial
