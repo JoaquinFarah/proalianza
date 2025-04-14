@@ -8,6 +8,7 @@ import ConfinedSection from '@/app/components/Confinedsection';
 import AirSection from '@/app/components/AirSection';
 import TrainingSection from '@/app/components/Trainingsection';
 import HigienicSection from '@/app/components/Higienicsection';
+import DetectorSection from '@/app/components/Detectorsection';
 
 export default function ContactPage() {
   return (
@@ -31,6 +32,7 @@ export default function ContactPage() {
       <ConfinedSection />
       <AirSection />
       <HigienicSection />
+      <DetectorSection />
       
     <Footer />
     </div>
