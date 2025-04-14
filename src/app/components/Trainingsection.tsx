@@ -17,7 +17,7 @@ export default function TrainingSection() {
                 <ShieldCheckIcon className="w-5 h-5 text-amber-500" />
               </span>
               <div className="flex flex-col items-start justify-start gap-1 w-full"> 
-                <h3 className="md:text-xl font-medium">Capacitación en espacio confinado</h3>                
+                <h3 className="md:text-xl font-medium">Capacitación trabajo en espacio confinado</h3>                
               </div>
             </div>
 
