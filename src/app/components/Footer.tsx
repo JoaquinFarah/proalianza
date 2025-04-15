@@ -107,6 +107,7 @@ export default function Footer() {
         </div>
         
     </div>
+    <div>by BrightInnovations</div>
     </footer>
   )
 }
