@@ -31,7 +31,9 @@ export default function ContactPage() {
       <Link href="/pages/service/training">
       <TrainingSection />
       </Link>
+      <Link href="/pages/service/height">
       <HeighSection />
+      </Link>
       <ConfinedSection />
       <AirSection />
       <HigienicSection />

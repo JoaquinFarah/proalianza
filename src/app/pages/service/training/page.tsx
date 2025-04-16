@@ -1,10 +1,11 @@
 import React from 'react';
 import Whatsapp from '@/app/components/Whatsapp';
 import Link from 'next/link';
+import Image from 'next/image';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 
-const Training = () => {
+const TrainingPage = () => {
   return (    
     <div className="bg-gray-50">
         <Navbar />
@@ -25,11 +26,18 @@ const Training = () => {
 
         {/* Right Column - Training Image */}
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-          <img 
+          {/* <img 
             className="w-full mx-auto bg-white" 
             src="/thirdman.jpg" 
             alt="Training"
-          />
+          /> */}
+          <Image 
+              src="/thirdman.jpg" 
+              alt="Icono" 
+              width={2000} 
+              height={2000} 
+              className="object-cover object-center w-full h-96 max-w-none rounded-lg"
+            />
         </div>
       </div>
 
@@ -87,4 +95,4 @@ const Training = () => {
   );
 };
 
-export default Training;
+export default TrainingPage;
