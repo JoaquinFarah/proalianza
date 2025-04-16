@@ -1,16 +1,28 @@
 import React from 'react';
-import Whatsapp from '@/app/components/Whatsapp';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '@/app/components/Navbar';
+import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
 
-const HeightPage = () => {
-  return (    
-    <div className="bg-gray-50">
-        <Navbar />
-        <Whatsapp />
-    <div className="w-full py-16 px-4">        
+export default function ContactPage() {
+  return (
+    <div className="bg-gray-50">      
+      <Navbar />
+      <Whatsapp />
+      <div className="relative h-screen">
+        <Image 
+          src="/brigadistasaltura1.png" 
+          alt="Icono" 
+          width={1000} 
+          height={1000} 
+          className="absolute top-0 left-0 w-full h-full object-cover shadow-xl" 
+        />
+        <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
+          <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Trabajos en Altura: Todo lo necesario para un efectivo procedimiento</p>
+        </div>
+      </div>
+      <div className="w-full py-16 px-4">        
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-8 mt-10">
         
         {/* Left Column */}
@@ -25,14 +37,14 @@ const HeightPage = () => {
         </div>
 
         {/* Right Column - Training Image */}
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">          
           <Image 
-            src="/brigadistasaltura.png" 
-            alt="Icono" 
-            width={2000} 
-            height={2000} 
-            className="object-cover object-center w-full h-96 max-w-none rounded-lg"
-          />
+              src="/brigadistasaltura.png" 
+              alt="Icono" 
+              width={2000} 
+              height={2000} 
+              className="object-cover object-center w-full h-96 max-w-none rounded-lg"
+            />
         </div>
       </div>
 
@@ -84,10 +96,8 @@ const HeightPage = () => {
         </div>
       </div>
       
-    </div>
+    </div>      
     <Footer />
     </div>
   );
-};
-
-export default HeightPage;
+}
