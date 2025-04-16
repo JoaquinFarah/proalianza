@@ -1,5 +1,6 @@
 import React from 'react';
 import Whatsapp from '@/app/components/Whatsapp';
+import Link from 'next/link';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 
@@ -51,20 +52,20 @@ const Training = () => {
           <h2 className="text-2xl font-bold text-center py-8">Desarrollo</h2>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8">Trabajo bajo stress</p>
-            <p className="py-2 border-b mx-8"></p>
-            <p className="py-2 border-b mx-8">Communication</p>
-            <p className="py-2 mx-8">Team Building</p>
+            <p className="py-2 border-b mx-8">Colaboración</p>
+            <p className="py-2 border-b mx-8">Comunicación efectiva</p>
+            <p className="py-2 mx-8">Creación de equipos</p>
           </div>
         </div>
 
         {/* Category 3 */}
         <div className="w-full shadow-xl bg-gradient-to-l from-gray-50 to-amber-500 flex flex-col p-4 rounded-lg hover:scale-105 duration-300">
-          <h2 className="text-2xl font-bold text-center py-8">Industry Specific</h2>
+          <h2 className="text-2xl font-bold text-center py-8">Especialistas</h2>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8">Manufacturing</p>
-            <p className="py-2 border-b mx-8">Healthcare</p>
-            <p className="py-2 border-b mx-8">Finance</p>
-            <p className="py-2 mx-8">Technology</p>
+            <p className="py-2 border-b mx-8">Trabajo en altura</p>
+            <p className="py-2 border-b mx-8">Espacios confinados</p>
+            <p className="py-2 border-b mx-8">Equipos autonomos</p>
+            <p className="py-2 mx-8">Detectores de gases</p>
           </div>
         </div>
 
@@ -73,10 +74,10 @@ const Training = () => {
       {/* CTA Section */}
       <div className="w-full py-16">
         <div className="max-w-[1240px] mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">¿Listos para empezar a capacitarse?</h2>
-          <button className="bg-amber-500 text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
+          <h2 className="text-3xl font-bold mb-10">¿Listos para empezar a capacitarse?</h2>
+          <Link href="/pages/contact" className="bg-amber-500 text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">
             Contáctenos
-          </button>
+          </Link>
         </div>
       </div>
       
