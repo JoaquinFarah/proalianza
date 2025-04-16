@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
+import Link from 'next/link';
 import HeighSection from '@/app/components/Heighsection';
 import ConfinedSection from '@/app/components/Confinedsection';
 import AirSection from '@/app/components/AirSection';
@@ -27,7 +28,9 @@ export default function ContactPage() {
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>Potencia tus proyectos con nuestros servicios integrales para infraestructuras y recursos humanos</p>
         </div>
       </div>
+      <Link href="/pages/service/training">
       <TrainingSection />
+      </Link>
       <HeighSection />
       <ConfinedSection />
       <AirSection />
