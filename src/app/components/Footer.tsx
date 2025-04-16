@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
 
-
 export default function Footer() {
     const handleClick = () => {
         const phoneNumber = '2616848392';
@@ -19,7 +18,7 @@ export default function Footer() {
   return (    
     <footer style={{ backgroundColor: '#e5771b' }} className="relative bg-gradient-to-b from-gray-50 mt-10 pt-8 pb-6">
     <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-left lg:text-left">
+        <div className="flex flex-wrap text-left lg:text-left justify-center">
         <div className="w-full lg:w-6/12 px-4">
         <div className="flex items-center flex-grow ml-10">
             <Link href="/">
@@ -33,20 +32,9 @@ export default function Footer() {
               />
             </Link>
           </div>
-            {/* <h4 className="text-3xl font-semibold text-blueGray-700">PROALIANZA</h4> */}
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
             Somos un equipo nuevo pero con amplia experiencia en el ámbito industrial, lo q nos convierte en su mejor elección
             </h5>
-
-            {/* Espacio para cuando esten las redes sociales */}
-            {/* <div className="mt-6 lg:mb-0 mb-6">
-            <button className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                <i className="fab fa-twitter"></i></button><button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                <i className="fab fa-facebook-square"></i></button><button className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                <i className="fab fa-dribbble"></i></button><button className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                <i className="fab fa-github"></i>
-            </button>
-            </div> */}
         </div>
         <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
@@ -80,7 +68,6 @@ export default function Footer() {
                 <span className="block uppercase text-blueGray-500 text-xl font-semibold mb-2 hover:text-blue-600">Contacto</span>
                 </Link>
                 <ul className="list-unstyled">
-                
                 <li>
                     <div className="flex items-center gap-3">
                         <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-600">
@@ -111,11 +98,10 @@ export default function Footer() {
             </div>
         </div>
         </div>
-        
+        <div className="flex justify-center">
+          <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="">by BrightInnovations</Link>
+        </div>
     </div>
-
-    <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="text-center">by BrightInnovations</Link>
-
     </footer>
   )
 }
