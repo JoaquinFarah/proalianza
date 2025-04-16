@@ -5,7 +5,7 @@ import Navbar from '@/app/components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
 
-export default function ContactPage() {
+export default function HeightPage() {
   return (
     <div className="bg-gray-50">      
       <Navbar />
