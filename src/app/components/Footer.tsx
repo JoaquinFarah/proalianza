@@ -32,8 +32,8 @@ export default function Footer() {
               />
             </Link>
           </div>
-            <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-            Somos un equipo nuevo pero con amplia experiencia en el ámbito industrial, lo q nos convierte en su mejor elección
+            <h5 className="text-lg mt-0 mb-2 text-blueGray-600 text-start font-semibold">
+            Somos un equipo nuevo pero con amplia experiencia en el ámbito industrial, lo que nos convierte en su mejor elección
             </h5>
         </div>
         <div className="w-full lg:w-6/12 px-4">
@@ -44,22 +44,34 @@ export default function Footer() {
                 </Link>
                 <ul className="list-unstyled">
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Capacitaciones</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Capacitaciones</p>
+                </Link>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Trabajos en Altura</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Trabajos en Altura</p>
+                </Link>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Espacios Confinados</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Espacios Confinados</p>
+                </Link>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Equipos Autónomos</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Equipos Autónomos</p>
+                </Link>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Mediciones Higiénicas</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Mediciones Higiénicas</p>
+                </Link>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Detectores de Gases</p>
+                <Link href="/pages/service">
+                    <p className="hover:text-blue-600 font-semibold block pb-2 text-sm">Detectores de Gases</p>
+                </Link>
                 </li>
                 </ul>
             </div>
@@ -99,7 +111,7 @@ export default function Footer() {
         </div>
         </div>
         <div className="flex justify-center">
-          <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="">by BrightInnovations</Link>
+          <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="font-light">by BrightInnovations®</Link>
         </div>
     </div>
     </footer>
