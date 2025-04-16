@@ -59,13 +59,19 @@ export default function Footer() {
                     <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Capacitaciones</p>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Servicio Técnico</p>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Trabajos en Altura</p>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Asesoramiento</p>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Espacios Confinados</p>
                 </li>
                 <li>
-                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Alquileres</p>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Equipos Autónomos</p>
+                </li>
+                <li>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Mediciones Higiénicas</p>
+                </li>
+                <li>
+                    <p className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Detectores de Gases</p>
                 </li>
                 </ul>
             </div>
@@ -107,7 +113,9 @@ export default function Footer() {
         </div>
         
     </div>
-    <div>by BrightInnovations</div>
+
+    <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="text-center">by BrightInnovations</Link>
+
     </footer>
   )
 }
