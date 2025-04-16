@@ -27,10 +27,11 @@ export default function Footer() {
                 alt="logo"
                 width={350}
                 height={350}
-                className="object-contain max-h-16"
+                className="object-contain max-h-16 mb-5"
                 priority
-              />
+              />              
             </Link>
+            
           </div>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600 text-start font-semibold">
             Somos un equipo nuevo pero con amplia experiencia en el ámbito industrial, lo que nos convierte en su mejor elección
@@ -111,8 +112,17 @@ export default function Footer() {
         </div>
         </div>
         <div className="flex justify-center">
-          <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="font-light">by BrightInnovations®</Link>
+            <Image
+                src="/banderaarg.png"
+                alt="logo"
+                width={350}
+                height={350}
+                className="object-contain max-h-16 mb-4"
+            />          
         </div>
+
+        <Link href="https://www.linkedin.com/in/joaquin-farah-695a15213/" className="font-light flex justify-center">by BrightInnovations®</Link>
+
     </div>
     </footer>
   )
