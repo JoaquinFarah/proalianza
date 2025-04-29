@@ -14,7 +14,7 @@ export default function Computer() {
           muted
           loop
         >
-          <source src="recorte.mp4" type="video/mp4" />
+          <source src="klingvideo.mp4" type="video/mp4" />
           Tu navegador no soporta el video.
         </video>        
       </div>   
