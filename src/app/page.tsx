@@ -53,9 +53,9 @@ export default function Index() {
                 alt={`Slide ${index + 1}`}
                 width={2000}
                 height={2000}
-                className="absolute top-0 left-0 w-full h-full object-cover brightness-65"
+                className="absolute top-0 left-0 w-full h-full object-cover brightness-65 shadow-xl"
               />
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
                 <div className="uppercase">
                   <p className="py-1">Presición que</p>
                   <p className="py-1"><span className="bg-amber-600 text-white px-1 rounded">impulsa</span></p>
