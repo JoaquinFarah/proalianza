@@ -3,9 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
 import Footer from './components/Footer';
-// import Device from './components/Device';
 import Services from './components/Services';
-import Computer from './components/Computer';
 
 export default function Index() {
   return (
@@ -56,8 +54,6 @@ export default function Index() {
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
 
         <Services />
-        {/* <Device /> */}
-        <Computer />
       </div>
 
       <Footer />
