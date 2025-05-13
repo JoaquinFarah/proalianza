@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import HeroSection from '@/app/components/Hero';
+import HeroSection2 from '@/app/components/Hero2';
 import Footer from '@/app/components/Footer';
 
 export default function AboutPage() {
@@ -24,6 +25,7 @@ export default function AboutPage() {
       </div>      
 
         <HeroSection />
+        <HeroSection2 />
         <Footer />
 
      
