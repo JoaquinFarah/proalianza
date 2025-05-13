@@ -16,7 +16,7 @@ export default function Footer() {
         window.open(url, '_blank');
     };    
   return (    
-    <footer style={{ backgroundColor: '#e5771b' }} className="relative bg-gradient-to-b from-gray-50 mt-10 pt-8 pb-6">
+    <footer style={{ backgroundColor: '#f7950a' }} className="relative bg-gradient-to-b from-gray-50 mt-10 pt-8 pb-6">
     <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left justify-center">
         <div className="w-full lg:w-6/12 px-4">
