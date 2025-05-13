@@ -32,8 +32,8 @@ export default function HeroSection2() {
       NUESTRO CRITERIO
       EMPRESARIAL
       </h1>
-      <p className="mt-20 text-3xl text-gray-700 text-start">
-      Nuestro criterio empresarial se fundamenta en la excelencia operativa y la generación de valor sostenible.
+      <div className="mt-20 text-3xl text-gray-700 text-start">
+      <p>Nuestro criterio empresarial se fundamenta en la excelencia operativa y la generación de valor sostenible.</p>
       <p className="text-start">Nos destacamos por:</p>
       <p className="text-start">• La búsqueda constante de la innovación y mejora continua</p>
       <p className="text-start">• El desarrollo de relaciones comerciales sólidas y
@@ -46,7 +46,7 @@ export default function HeroSection2() {
       operaciones</p>
       <p className="text-start">• La transparencia ética en todas nuestras acciones</p>
       <p className="text-start"></p>
-      </p>
+      </div>
       <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-end">
         NUESTRO CRITERIO INDUSTRIAL
       </h1>
@@ -63,7 +63,7 @@ export default function HeroSection2() {
             alt="Icono" 
             width={2000} 
             height={2000} 
-            className=" rounded-xl bg-gray-900 ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] lg:rounded-none lg:rounded-l-xl lg:object-cover lg:object-center lg:top-0 lg:left-0 lg:w-full lg:h-96 lg:max-w-none lg:bg-gray-900/50 lg:ring-5 lg:shadow-none"
+            className=" rounded-xl bg-gray-900 ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] lg:rounded-xl lg:rounded-l-xl lg:object-cover lg:object-center lg:top-0 lg:left-0 lg:w-full lg:h-96 lg:max-w-none lg:bg-gray-900/50 lg:ring-5 lg:shadow-none"
         />
         </div>
       </div>

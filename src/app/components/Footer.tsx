@@ -113,7 +113,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-center">
             <Image
-                src="/banderaarg.png"
+                src="/banderaarg.jpg"
                 alt="logo"
                 width={350}
                 height={350}
