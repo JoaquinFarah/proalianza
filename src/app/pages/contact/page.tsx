@@ -13,7 +13,7 @@ export default function ContactPage() {
       <Whatsapp />
       <div className="relative h-screen">
         <Image 
-          src="/tunel.jpg" 
+          src="/contacto1.jpg" 
           alt="Icono" 
           width={2000} 
           height={2000} 
