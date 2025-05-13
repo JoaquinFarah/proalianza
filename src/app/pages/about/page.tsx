@@ -21,12 +21,36 @@ export default function AboutPage() {
         <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-4xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
           <p className="uppercase" >SOMOS ESPECIALISTAS EN LA BÚSQUEDA Y OBTENCIÓN DEL LÍMITE TÉCNICO TANTO DEL PERSONAL COMO DE LAS HERRAMIENTAS Y EQUIPOS</p>
         </div>
-      </div>
-      <div>
+      </div>      
+
+        <HeroSection />
+        <Footer />
+
+     
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* POR QUE ELEGIRNOS */}
+      {/* <div>
         <h1 className="text-5xl flex justify-center items-center mt-20">¿Por qué elegirnos?</h1>
-        <p className="text-2xl flex justify-center text-justify items-center mt-10 px-20">En un mundo donde la seguridad y la eficiencia son primordiales, somos tu nuevo aliado estratégico. Con más de 20 años de experiencia en el sector, ofrecemos soluciones integrales que garantizan la protección de tus trabajadores y la optimización de tus recursos</p>        
+        <p className="text-2xl flex justify-center text-justify items-center mt-10 px-20">En un mundo donde la seguridad y la eficiencia son primordiales, somos tu nuevo aliado estratégico. Con más de 20 años de experiencia en el sector, ofrecemos soluciones integrales que garantizan la protección de tus trabajadores y la optimización de tus recursos</p>    */}
+
         {/* Three Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 px-10">
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 px-10">
           <div className="flex flex-col items-center text-center">
             <Image 
               src="/Risk.svg" 
@@ -60,10 +84,11 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold mt-5">Capacitación Especializada</h2>
             <p className="mt-3 text-lg">Brindamos formación especializada para garantizar que los equipos estén preparados para enfrentar desafíos críticos</p>
           </div>
-        </div>
+        </div> */}
 
         {/* Two Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-50">
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-20 px-50">
           <div className="flex flex-col items-center text-center">
             <Image 
               src="/Hat.svg" 
@@ -86,12 +111,5 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold mt-5">Experiencia comprobable</h2>
             <p className="mt-3 text-lg">Porque nuestro staff ha pasado los últimos 20 años en áreas de seguridad laboral y capacitaciones permanentes, estamos  seguros que podemos ofrecer todo lo que sabemos. Cuando hay conocimiento se hace notar </p>
           </div>          
-        </div>
-
-        <HeroSection />
-        <Footer />
-
-      </div>
-    </div>
-  );
-}
+        </div> */}
+    {/* </div> */}
