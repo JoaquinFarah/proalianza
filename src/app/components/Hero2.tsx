@@ -59,7 +59,7 @@ export default function HeroSection2() {
         <div className="-mt-10 -ml-10 p-12 lg:sticky lg:top-20 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
          
         <Image 
-            src="/quienes2.jpg" 
+            src="/quienes3.jpg" 
             alt="Icono" 
             width={2000} 
             height={2000} 
