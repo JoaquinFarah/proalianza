@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex items-center flex-grow ml-10">
             <Link href="/">
               <Image                    
-                src="/logocompleto.jpeg"
+                src="/logosinfondo.png"
                 alt="logo"
                 width={350}
                 height={350}

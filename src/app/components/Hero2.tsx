@@ -3,18 +3,18 @@ import Image from 'next/image'
 export default function HeroSection2() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-      {/* Fondo fijo */}
+      {/* Sticky background */}
       <div
         className="pointer-events-none absolute left-0 right-0 -z-10"
         style={{
-          top: '0px', // Ajusta este valor para mover el fondo más arriba o abajo
+          top: '0px', 
           bottom: 0,
           backgroundImage: "url('/fondo2.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'top',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.50, // Ajusta la opacidad si lo deseas
+          opacity: 0.50, // Opacity adjust
         }}
         aria-hidden="true"
       />
@@ -34,8 +34,8 @@ export default function HeroSection2() {
       </h1>
       <div className="mt-20 text-3xl text-gray-700 text-start">
       <p>Nuestro criterio empresarial se fundamenta en la excelencia operativa y la generación de valor sostenible.</p>
-      <p className="text-start">Nos destacamos por:</p>
-      <p className="text-start">• La búsqueda constante de la innovación y mejora continua</p>
+      <p className="text-start mt-5">Nos destacamos por:</p>
+      <p className="text-start mt-5">• La búsqueda constante de la innovación y mejora continua</p>
       <p className="text-start">• El desarrollo de relaciones comerciales sólidas y
       duraderas</p>
       <p className="text-start">• La formación y capacitación permanente de nuestro
@@ -45,14 +45,10 @@ export default function HeroSection2() {
       <p className="text-start">• La responsabilidad social y ambiental en nuestras
       operaciones</p>
       <p className="text-start">• La transparencia ética en todas nuestras acciones</p>
-      <p className="text-start"></p>
+      <p className="text-start"></p>      
+      <p className="mt-10">Estos pilares nos permiten ofrecer soluciones integrales que maximizan la <span className="bg-amber-500 font-bold">eficiencia</span> y <span className="bg-amber-500 font-bold">competitividad</span> de nuestros clientes.</p>
       </div>
-      <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-end">
-        NUESTRO CRITERIO INDUSTRIAL
-      </h1>
-      <p className="mt-20 text-3xl text-gray-700 text-center">
-      Estos pilares nos permiten ofrecer soluciones integrales que maximizan la <span className="bg-amber-500 font-bold">eficiencia</span> y <span className="bg-amber-500 font-bold">competitividad</span> de nuestros clientes.
-      </p>
+      
     </div>
   </div>
         

@@ -3,18 +3,18 @@ import Image from 'next/image'
 export default function HeroSection() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 -mr-10">
-      {/* Fondo fijo */}
+      {/* Sticky background */}
       <div
         className="pointer-events-none absolute left-0 right-0 -z-10"
         style={{
-          top: '0px', // Ajusta este valor para mover el fondo más arriba o abajo
+          top: '0px', 
           bottom: 0,
           backgroundImage: "url('/fondo1.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'top',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.50, // Ajusta la opacidad si lo deseas
+          opacity: 0.50, // Opacity adjust
         }}
         aria-hidden="true"
       />
