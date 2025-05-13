@@ -12,7 +12,7 @@ export default function ProfilePage() {
 
       <div className="relative h-screen">
         <Image
-          src="/shake.jpg"
+          src="/perfil1.jpg"
           alt="Icono"
           width={2000}
           height={2000}
@@ -20,12 +20,13 @@ export default function ProfilePage() {
         />
         <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
           <p className="uppercase" style={{ textShadow: '2px 2px 4px #e5771b' }}>
-            Especialistas en la búsqueda y obtención del límite técnico tanto del personal como de las herramientas y equipos
+          IMPULSAMOS EL ÉXITO DE TU PROYECTO CON
+          SOLUCIONES PRÁCTICAS
           </p>
         </div>
       </div>
 
-      {/* Sección descriptiva */}
+      {/* Description */}
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-8">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
 
@@ -66,7 +67,7 @@ export default function ProfilePage() {
       </div>
 
 
-      {/* Sección descriptiva */}
+      {/* Description */}
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8 mt-20 mb-20">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
 
@@ -96,7 +97,7 @@ export default function ProfilePage() {
 
           <div className="p-1 lg:sticky lg:top-20 order-1 lg:order-2">
             <Image
-              src="/plan.jpg"
+              src="/perfil2.jpeg"
               alt="Icono"
               width={2000}
               height={2000}
