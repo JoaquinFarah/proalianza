@@ -29,10 +29,18 @@ const Navbar: React.FC = () => {
           
           {/* Links rightside */}
           <div className="flex items-center justify-end space-x-10 mr-60">
+
+            <Link href="/" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            Inicio
+            </Link>
           
             <Link href="/pages/about" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
-            Nosotros
+            Quiénes Somos
             </Link>
+
+            <Link href="/pages/profile" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+            Perfil
+            </Link> 
 
             <div className="relative inline-block text-left">
               <div className="group">
@@ -54,11 +62,7 @@ const Navbar: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <Link href="/pages/profile" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
-            Perfil
-            </Link>             
+            </div> 
 
             <Link href="/pages/contact" className="no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
             Contacto
