@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function HeroSection() {
+export default function ProfileSection() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 -mr-10">
       {/* Sticky background */}
@@ -9,20 +9,22 @@ export default function HeroSection() {
         style={{
           top: '0px', 
           bottom: 0,
-          backgroundImage: "url('/fondo1.png')",
+          backgroundImage: "url('/fondo4.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'top',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
-          opacity: 1 // Opacity adjust
+          opacity: 1, // Opacity adjust
         }}
         aria-hidden="true"
       />
-
+    <h1 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center"> LA MEJOR ELECCION</h1>
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8 mt-20 mb-20">
+      
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
           <div className="lg:pr-4 order-2 lg:order-1">
             <div className="max-w-3xl text-gray-700">
+            
               <h1 className=" text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
               ¿QUIÉNES SOMOS?
               </h1>
@@ -46,7 +48,7 @@ export default function HeroSection() {
 
           <div className="p-1 lg:sticky lg:top-20 order-1 lg:order-2">
             <Image
-              src="/quienes2.jpg"
+              src="/perfil2.jpeg"
               alt="Icono"
               width={2000}
               height={2000}

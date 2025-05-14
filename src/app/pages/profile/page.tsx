@@ -3,10 +3,11 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import Footer from '@/app/components/Footer';
+import ProfileSection from '@/app/components/Profilesection';
 
 export default function ProfilePage() {
   return (
-    <div className="bg-gray-50">
+    <div>
       <Navbar />
       <Whatsapp />
 
@@ -27,6 +28,7 @@ export default function ProfilePage() {
       </div>
 
 
+  
 
       {/* POR QUE ELEGIRNOS */}
       <div>
@@ -99,12 +101,12 @@ export default function ProfilePage() {
         </div>
     </div>
 
-
+    <ProfileSection />
 
     
 
       {/* Description */}
-      <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8 mt-20 mb-20 mt-50">
+      {/* <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8 mb-20 mt-50">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
 
           <div className="lg:pr-4 order-2 lg:order-1">
@@ -162,7 +164,7 @@ export default function ProfilePage() {
         </div>
       </div>
 
-     
+      */}
 
       <Footer />
     </div>

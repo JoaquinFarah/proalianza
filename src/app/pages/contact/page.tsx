@@ -8,7 +8,7 @@ import ContactForm from '@/app/components/Contactform';
 
 export default function ContactPage() {
   return (
-    <div className="bg-gray-50">      
+    <div>      
       <Navbar />
       <Whatsapp />
       <div className="relative h-screen">

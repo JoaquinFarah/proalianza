@@ -14,7 +14,7 @@ export default function HeroSection2() {
           backgroundPosition: 'top',
           backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.50, // Opacity adjust
+          opacity: 1, // Opacity adjust
         }}
         aria-hidden="true"
       />
