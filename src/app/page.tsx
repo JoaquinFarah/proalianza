@@ -15,7 +15,7 @@ const carouselImages = [
     text: "PRECISIÓN que impulsa tu industria, FORMACIÓN que salva vidas."
   },
   {
-    src: "/INICIO2.jpeg",
+    src: "/inicio2.png",
     text: "PRECISIÓN que impulsa tu industria, FORMACIÓN que salva vidas."
   },
   {
