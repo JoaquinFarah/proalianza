@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Navbar from './components/Navbar';
 import Whatsapp from './components/Whatsapp';
 import Footer from './components/Footer';
-// import Services from './components/Services';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,24 +54,21 @@ export default function Index() {
                 height={2000}
                 className="absolute top-0 left-0 w-full h-full object-cover brightness-65 shadow-xl"
               />
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
-                <div className="uppercase">
-                  <p className="py-1">Precisión que</p>
-                  <p className="py-1"><span className="bg-amber-600 text-white px-1 rounded">impulsa</span></p>
-                  <p className="py-1"> tu industria,</p>
-                  <p className="py-1"><span className="bg-amber-600 text-white px-1 rounded">FORMACIÓN</span></p>
-                  <p className="py-1"> que salva vidas</p>
-                </div>
-              </div>
+              
             </div>
           ))}
         </Slider>
       </div>
+      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
+        <div className="uppercase">
+          <p className="py-1">Precisión que</p>
+          <p className="py-1"><span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">impulsa</span></p>
+          <p className="py-1"> tu industria,</p>
+          <p className="py-1"><span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">FORMACIÓN</span></p>
+          <p className="py-1"> que salva vidas</p>
+        </div>
+      </div>
 
-      {/* <div className="mt-20">
-        <h1 className="text-5xl flex justify-center items-center mt-20">¿Que hacemos?</h1>
-        <Services />
-      </div> */}
 
       <Footer />
     </div>
