@@ -27,19 +27,19 @@ export default function HeroSection() {
               ¿QUIÉNES SOMOS?
               </h1>
               <p className="mt-6 text-xl leading-8">
-              <span className="bg-amber-500 font-bold">Pro Alianza®</span> es una empresa de <span className="bg-amber-500 font-bold">Servicios de Asistencia Técnica, Capacitación, Entrenamiento, Calibración de Sistemas de Detección y Comercialización de Productos</span> para la Seguridad bajo el esquema de Sociedad de Acciones Simplificada (S.A.S). Brinda un servicio de calidad en su tipo contando a su vez con un equipo interdisciplinario con 30 años de experiencia en funciones claves de diversas empresas.
+              <span style={{ backgroundColor: '#f7950a' }} className="font-bold">Pro Alianza®</span> es una empresa de <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">Servicios de Asistencia Técnica, Capacitación, Entrenamiento, Calibración de Sistemas de Detección y Comercialización de Productos</span> para la Seguridad bajo el esquema de Sociedad de Acciones Simplificada (S.A.S). Brinda un servicio de calidad en su tipo contando a su vez con un equipo interdisciplinario con 30 años de experiencia en funciones claves de diversas empresas.
               </p>
               <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
               NUESTRA MISIÓN
               </h1>
               <p className="mt-6 text-xl leading-8">
-              Volcar nuestra experiencia en el análisis de operaciones industriales, con el fin de obtener su <span className="bg-amber-500 font-bold">optimización</span>, mejorando la eficiencia y la seguridad, al mismo tiempo que se reducen los costos.
+              Volcar nuestra experiencia en el análisis de operaciones industriales, con el fin de obtener su <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">optimización</span>, mejorando la eficiencia y la seguridad, al mismo tiempo que se reducen los costos.
               </p>  
               <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
               NUESTRO CRITERIO INDUSTRIAL
               </h1>
               <p className="mt-6 text-xl leading-8">
-              Se basa en la optimización de procesos y recursos, aplicando las mejores prácticas y tecnologías disponibles. Nos enfocamos en la seguridad, eficiencia y sostenibilidad de las operaciones, buscando siempre el equilibrio entre el rendimiento operativo y la gestión responsable de los recursos. Trabajamos de manera <span className="bg-amber-500 font-bold">proactiva</span> para identificar áreas de mejora y proponer soluciones innovadoras que agreguen valor real a nuestros clientes.
+              Se basa en la optimización de procesos y recursos, aplicando las mejores prácticas y tecnologías disponibles. Nos enfocamos en la seguridad, eficiencia y sostenibilidad de las operaciones, buscando siempre el equilibrio entre el rendimiento operativo y la gestión responsable de los recursos. Trabajamos de manera <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">proactiva</span> para identificar áreas de mejora y proponer soluciones innovadoras que agreguen valor real a nuestros clientes.
               </p>   
             </div>
           </div>
