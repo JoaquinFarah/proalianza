@@ -38,7 +38,7 @@ export default function HeroSection2() {
               NUESTRA VISIÓN
               </h1>
               <p className="mt-6 text-2xl leading-8">
-                Ser reconocidos como una empresa líder en nuestra especialidad brindando servicios de <span className="bg-amber-500 font-bold">excelencia</span> que superen las expectativas de nuestros clientes y contribuyan al desarrollo sostenible.
+                Ser reconocidos como una empresa líder en nuestra especialidad brindando servicios de <span style={{ backgroundColor: '#f7950a' }} className="font-bold">excelencia</span> que superen las expectativas de nuestros clientes y contribuyan al desarrollo sostenible.
               </p>
 
               <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
@@ -58,20 +58,13 @@ export default function HeroSection2() {
               operaciones</p>
               <p className="text-start">• La transparencia ética en todas nuestras acciones</p>
               <p className="text-start"></p>      
-              <p className="mt-10">Estos pilares nos permiten ofrecer soluciones integrales que maximizan la <span className="bg-amber-500 font-bold">eficiencia</span> y <span className="bg-amber-500 font-bold">competitividad</span> de nuestros clientes.</p>
+              <p className="mt-10">Estos pilares nos permiten ofrecer soluciones integrales que maximizan la <span style={{ backgroundColor: '#f7950a' }} className="font-bold">eficiencia</span> y <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">competitividad</span> de nuestros clientes.</p>
               </div>
                           
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
     </div>
   )
 }
