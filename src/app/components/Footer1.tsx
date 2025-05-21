@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer1 = () => {
   return (
@@ -76,11 +77,13 @@ const Footer1 = () => {
             alignItems: "center",
           }}
         >
-          <img
-            src="/banderaarg.jpg"
-            alt="Bandera Argentina"
-            style={{ width: 150, height: 100, objectFit: "cover", borderRadius: 4 }}
-          />
+          <Image
+                              src="/banderaarg.jpg"
+                              alt="bandera"
+                              width={350}
+                              height={350}
+                              className="object-contain max-h-16"
+                          />  
           <img
             src="/logosinfondo.png"
             alt="Logo ProAlianza"

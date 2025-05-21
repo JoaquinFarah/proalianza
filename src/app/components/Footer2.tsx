@@ -8,7 +8,7 @@ export default function Footer2() {
 
       <div className="relative h-screen">
         <Image        
-          src="/footer.jpg"
+          src="/Footer.jpg"
           alt="Icono"
           width={2000}
           height={2000}
@@ -30,7 +30,7 @@ export default function Footer2() {
 
 
 
-<div className="absolute">
+    <div className="absolute">
         {/* Contenido del footer */}
       <div className="mt-113 left-80"
         style={{          
@@ -94,7 +94,7 @@ export default function Footer2() {
           <div className="flex justify-center">
                 <Image
                     src="/banderaarg.jpg"
-                    alt="logo"
+                    alt="bandera"
                     width={350}
                     height={350}
                     className="object-contain max-h-16"
@@ -107,16 +107,10 @@ export default function Footer2() {
                     height={350}
                     className="object-contain max-h-16"
                 />          
+            </div>          
             </div>
-          
         </div>
-      </div>
-
-
-</div>
-
-
-
+        </div>
       </div>
     </div>
   );
