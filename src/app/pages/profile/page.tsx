@@ -2,7 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
-import Footer from '@/app/components/Footer';
+// import Footer from '@/app/components/Footer';
+import Footer1 from '@/app/components/Footer1';
+import Footer2 from '@/app/components/Footer2';
 import ProfileSection from '@/app/components/Profilesection';
 import ChooseSection from '@/app/components/Choosesection';
 
@@ -30,7 +32,7 @@ export default function ProfilePage() {
   
     <ChooseSection />
     <ProfileSection />
-    <Footer />
+    <Footer2 />
     </div>
     
   );
