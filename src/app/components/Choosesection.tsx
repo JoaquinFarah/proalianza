@@ -9,7 +9,7 @@ export default function ChooseSection() {
         style={{
           top: '0px', 
           bottom: 0,
-          backgroundImage: "url('/fondo3.png')",
+          backgroundImage: "url('/fondo5.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'top',
           backgroundAttachment: 'fixed',
