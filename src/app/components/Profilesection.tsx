@@ -1,6 +1,24 @@
 import Image from 'next/image'
 
 export default function ProfileSection() {
+  const TripleRight = () => (
+  <img
+    src="/TripleRight.svg"
+    alt="Triple Right"
+    style={{ width: 100, height: 100, verticalAlign: "middle" }}
+    loading="lazy"
+  />
+);
+
+const TripleLeft = () => (
+  <img
+    src="/TripleLeft.svg"
+    alt="Triple Left"
+    style={{ width: 100, height: 100, verticalAlign: "middle" }}
+    loading="lazy"
+  />
+);
+
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 -mr-10">
       {/* Sticky background */}
@@ -18,7 +36,26 @@ export default function ProfileSection() {
         }}
         aria-hidden="true"
       />
-    <h1 className="text-5xl flex justify-center items-center mt-20 p-5 uppercase font-bold bg-gray-50">LA MEJOR ELECCIÓN</h1>
+    
+    <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 16, marginBottom: 24}}>
+      <TripleRight />
+      <span
+        style={{
+          background: "#fff",
+          color: "#111",
+          fontWeight: 700,
+          fontSize: 40,
+          padding: "0 32px",
+          letterSpacing: 1,
+          borderRadius: 2,
+          boxShadow: "0 2px 8px #0001",
+        }}
+      >
+        LA MEJOR ELECCIÓN
+      </span>
+      <TripleLeft />
+    </div>
+
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-2 lg:overflow-visible lg:px-8 mt-20 mb-20">
       
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 items-start">
