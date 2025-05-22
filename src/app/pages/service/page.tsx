@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
-import Footer from '@/app/components/Footer';
 import Link from 'next/link';
 import HeighSection from '@/app/components/Heighsection';
 import ConfinedSection from '@/app/components/Confinedsection';
@@ -10,6 +9,7 @@ import AirSection from '@/app/components/AirSection';
 import TrainingSection from '@/app/components/Trainingsection';
 import HigienicSection from '@/app/components/Higienicsection';
 import DetectorSection from '@/app/components/Detectorsection';
+import Footer from '@/app/components/Footer';
 
 export default function ContactPage() {
   return (

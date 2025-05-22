@@ -1,5 +1,5 @@
 'use client';
-import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon } from '@heroicons/react/20/solid';
+import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon, CameraIcon, ClockIcon } from '@heroicons/react/20/solid';
 
 export default function ContactForm() {
   const handleClick = () => {
@@ -17,49 +17,79 @@ export default function ContactForm() {
     window.open(url, '_blank');
   };
   return (
-    <section className="bg-white text-gray-800 py-16">
+    <section
+      className="text-gray-800 py-16"
+      style={{
+        backgroundImage: "url('/fondo3.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
         {/* Left side */}
-        <div className="space-y-6">
-          <h2 className="text-4xl font-bold text-gray-900">Contáctenos</h2>
-          <p className="text-lg text-gray-600">
-            Nuestros horarios de atención son de lunes a viernes de 9:00 a 18:00. Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte.
-          </p>
-          <div className="space-y-4 text-gray-700">
-            <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-amber-500">
-              <DevicePhoneMobileIcon className="w-5 h-5 text-gray-500" />
-              <p>+54 9 2616 84-8392</p>
-            </button>
-            <div className="flex items-center gap-3">
-              <EnvelopeIcon className="w-5 h-5 text-gray-500" />
-              <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer hover:text-amber-500">
-              <p>proalianzamdz@gmail.com</p>
+        <div className="space-y-6">         
+          <div className="space-y-5 text-gray-700 ml-10">  
+
+            <div className="flex items-start gap-3">
+              <MapPinIcon className="w-20 h-10 text-white" />
+              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Dirección</h1>
+            </div>
+            <div>
+              <button onClick={handleAddress} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+                <p>Cnel.Terrada 3907 - Perdriel, Luján de Cuyo, Mendoza</p>
               </button>
             </div>
+
             <div className="flex items-start gap-3">
-              <MapPinIcon className="w-6 h-6 mt-1 text-gray-500" />
-              <div>
-              <button onClick={handleAddress} className="flex items-center gap-3 hover:cursor-pointer hover:text-amber-500">
-                <p>Cnel.Terrada 3907 - Perdriel, Luján de Cuyo, Mendoza</p>
-                </button>
-              </div>
+              <ClockIcon className="w-20 h-10 text-white" />
+              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Horarios de atención</h1>
+            </div>
+            <button className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+                <p>Lunes a viernes de 9:00 a 18:00hs.</p>
+              </button>
+
+            <div className="flex items-start gap-3">
+              <DevicePhoneMobileIcon className="w-20 h-10 text-white" />
+              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Teléfono</h1>
+            </div>
+            <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+              <p>+54 9 2616 84-8392</p>
+            </button>
+
+            <div className="flex items-start gap-3">
+              <EnvelopeIcon className="w-20 h-10 text-white" />
+              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Correo</h1>
+            </div>
+            <div className="flex items-center gap-3">
+              <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+                <p>proalianzamdz@gmail.com</p>
+              </button>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <CameraIcon className="w-20 h-10 text-white" />
+              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Instagram</h1>
+            </div>
+            <div className="flex items-center gap-3">
+              <button className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+                <p>@proalianza.mdz</p>
+              </button>
             </div>            
+
           </div>          
         </div> 
         {/* Right side */} 
-          <div className="mt-6">
-            <iframe
-              title="Google Map"
-              src="https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed"
-              className="w-full h-80 rounded-md border border-gray-300 shadow-lg"
-              loading="lazy"
-              allowFullScreen
-            ></iframe>
-          </div>
+        <div className="mt-6">
+          <iframe
+            title="Google Map"
+            src="https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed"
+            className="w-full h-80 rounded-md border border-gray-300 shadow-lg"
+            loading="lazy"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
-    </section>
-    
+    </section>    
   );
 }
-
-
