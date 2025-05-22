@@ -1,8 +1,20 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
+// import Link from 'next/link';
 
 
 export default function Footer() {
+  const handleClick = () => {
+        const phoneNumber = '2616848392';
+        const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
+    };
+    const handleMail = () => {     
+        const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
+        window.open(url, '_blank');
+    }; 
   return (
     <div>      
 
@@ -53,34 +65,34 @@ export default function Footer() {
         >
             
           {/* Dirección */}
-          <div style={{ textAlign: "center", color: "#fff" }}>
+          <button className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📍</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
               Terrada 3907, Perdriel,<br />
               Luján de Cuyo, Mendoza.
             </div>
-          </div>
+          </button>
           {/* Teléfonos */}
-          <div style={{ textAlign: "center", color: "#fff" }}>
+          <button onClick={handleClick} className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📞</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
               +54 9 261 6848392              
             </div>
-          </div>
+          </button>
           {/* Email */}
-          <div style={{ textAlign: "center", color: "#fff" }}>
+          <button onClick={handleMail} className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>✉️</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
               proalianzamdz@gmail.com
             </div>
-          </div>
+          </button>
           {/* Instagram */}
-          <div style={{ textAlign: "center", color: "#fff" }}>
+          <button className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📷</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
               proalianza.mdz
             </div>
-          </div>
+          </button>
         </div>
         {/* Logos */}
         <div
@@ -108,10 +120,10 @@ export default function Footer() {
                     className="object-contain max-h-16"
                 />          
             </div>          
-            </div>
-        </div>
-        </div>
-      </div>
+            </div>            
+        </div>        
+        </div>        
+      </div>      
     </div>
   );
 }
