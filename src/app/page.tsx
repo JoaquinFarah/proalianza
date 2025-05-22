@@ -59,7 +59,7 @@ export default function Index() {
           ))}
         </Slider>
       </div>
-      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
+      <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-semibold text-center p-8 backdrop-blur-md bg-black/30 rounded-lg max-w-4xl">
         <div className="uppercase">
           <p className="py-1">Precisión que</p>
           <p className="py-1"><span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">impulsa</span></p>
