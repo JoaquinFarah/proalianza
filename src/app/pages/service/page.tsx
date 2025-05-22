@@ -24,8 +24,12 @@ export default function ContactPage() {
           height={2000} 
           className="absolute top-0 left-0 w-full h-full object-cover shadow-xl brightness-65" 
         />
-        <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
+        {/* <div className="absolute top-1/3 left-1/5 transform -translate-x-1/7 -translate-y-1 text-white text-5xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs">
           <p className="uppercase">Potencia tus proyectos con nuestros servicios integrales para infraestructuras y recursos humanos</p>
+        </div> */}
+        <div className="absolute top-3/5 left-1/5 transform -translate-x-1/5 -translate-y-1 text-white text-4xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs w-full" >
+          <p className="uppercase" >SOMOS ESPECIALISTAS EN LA BÚSQUEDA Y OBTENCIÓN DEL LÍMITE TÉCNICO </p>
+          <p>TANTO DEL PERSONAL COMO DE LAS HERRAMIENTAS Y EQUIPOS</p>
         </div>
       </div>
       <Link href="/pages/service/training">
