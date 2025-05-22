@@ -4,8 +4,7 @@ import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
 import HeroSection from '@/app/components/Hero';
 import HeroSection2 from '@/app/components/Hero2';
-// import Footer from '@/app/components/Footer';
-import Footer1 from '@/app/components/Footer1';
+import Footer from '@/app/components/Footer';
 
 export default function AboutPage() {
   return (
@@ -14,7 +13,7 @@ export default function AboutPage() {
       <Whatsapp />
       <div className="relative h-screen">
         <Image 
-          src="/quienes1.jpg" 
+          src="/quienes1.JPG" 
           alt="Icono" 
           width={2000} 
           height={2000} 
@@ -28,7 +27,7 @@ export default function AboutPage() {
 
         <HeroSection />
         <HeroSection2 />
-        <Footer1 />
+        <Footer />
              
     </div>
   );
