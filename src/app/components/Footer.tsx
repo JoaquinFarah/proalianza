@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Footer() {
   const handleClick = () => {
         const phoneNumber = '2616848392';
-        const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
+        const message = '¡Buenos días! Me gustaría ponerme en contacto con ustedes para ser asesorado.';
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };
