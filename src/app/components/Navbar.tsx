@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                   <div className="py-2">
                     <Link href="/pages/training" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Capacitaciones</Link>
                     
-                    <Link href="/pages/service" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Servicios</Link>
+                    <Link href="/pages/service" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Prestaciones</Link>
 
                     <Link href="/pages/sales&rent" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Venta y Alquileres</Link>
                   </div>

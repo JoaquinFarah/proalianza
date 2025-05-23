@@ -6,27 +6,22 @@ import Whatsapp from '@/app/components/Whatsapp';
 
 const servicios = [
   {
-    id: 'altura',
-    title: 'Trabajo en Altura',
-    description: 'Capacitación actualizada con las últimas disposiciones de la Resolución 61/2023. Incluye los tres niveles que exige dicha normativa: Superior, Intermedio y Operativo. Práctica con torre de entrenamiento móvil, uso de malacates, trípode y todos los EPP necesarios.',
-    image: '/torre3.jpg',
+    id: 'inspeccion',
+    title: 'Inspección de equipos de Torre',
+    description: 'Incremente la productividad y eficiencia ya que los equipos y periféricos son probados a su máxima capacidad antes de iniciar un contrato o luego de una inspección cat. IV (IND) garantizando un óptimo funcionamiento durante la operación. También se obtiene un incremento en los niveles de seguridad en la operación y mejora en los indicadores de accidentabilidad. Tenemos basta experiencia en inspecciones visuales de seguridad como también de integridad.',
+    image: '/torre3.jpg', 
     details: [
-      'Modalidad: Presencial',
-      'Duración: 3 a 6 hs. Dependiendo el nivel',
-
-    ]
+      
+    ]   
   },
   {
-    id: 'confinados',
-    title: 'Espacios Confinados',
-    description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/espaciosconfinados.jpg',
+    id: 'optimizacion',
+    title: 'Optimización de operaciones en equipo de torre',
+    description: 'Es nuestra especialidad y lo que más nos apasiona, con énfasis en equipos de Workover y Pulling. Optimice sus operaciones al tiempo que incrementa la seguridad y reduce los costos operativos. Este programa plantea el desafío de poder incrementar la eficiencia y bajar costos de operación, mejorando a su vez los estándares de seguridad. Sabemos cómo hacerlo con o sin inversión. ',
+    image: '/espaciosconfinados.jpg', 
     details: [
-      'Evaluación de riesgos',
-      'Planes de emergencia',
-      'Modalidad: Presencial',
-      'Duración: 3 a 6 hs. Dependiendo el nivel',
-    ]
+      
+    ]   
   },
   {
     id: 'detectores',
