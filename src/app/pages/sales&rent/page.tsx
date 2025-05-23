@@ -24,10 +24,10 @@ const servicios = [
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
     image: '/epp.webp',
     details: [
-      'Evaluación de riesgos',
-      'Planes de emergencia',
-      'Modalidad: Presencial',
-      'Duración: 3 a 6 hs. Dependiendo el nivel',
+      'Evaluación de entornos de trabajo',
+      'Planes de mantenimiento',
+      'Cursos y capacitaciones',
+      'Asesoramiento',
     ]
   },
   {
@@ -36,8 +36,11 @@ const servicios = [
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
     image: '/izaje.jpg',
     details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 3 hs. ',
+      'Cursos de capacitación',
+      'Asesoramiento',
+      'Línea de vida',
+      'Trípodes',
+      'Malacates',
     ]
   }, 
   
