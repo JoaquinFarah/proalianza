@@ -44,20 +44,20 @@ const Navbar: React.FC = () => {
 
             <div className="relative inline-block text-left">
               <div className="group">
-              <Link href="/pages/service" className="inline-flex justify-center items-center w-full px-1 focus:outline-none no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:cursor-pointer hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+              <button className="inline-flex justify-center items-center w-full px-1 focus:outline-none no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400 hover:cursor-pointer hover:text-white text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
                   Servicios
                   <svg className="w-4 h-4 -mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M10 15l-5-5h10l-5 5z" />
                   </svg>
-              </Link>
+              </button>
 
-              <div className="absolute left-0 w-60 origin-top-left hover:backdrop-blur-lg rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 hover:bg-amber-500/70 group-hover:visible bg-white/30 transition duration-300 ease-in-out text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
+              <div className="absolute left-0 w-60 origin-top-left rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 hover:bg-amber-500/70 group-hover:visible bg-white/30 transition duration-300 ease-in-out text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
                   <div className="py-2">
-                    <Link href="/pages/training" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Capacitaciones</Link>
+                    <Link href="/pages/training" className="block px-4 py-2 hover:bg-gray-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Capacitaciones</Link>
                     
-                    <Link href="/pages/service" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Prestaciones</Link>
+                    <Link href="/pages/service" className="block px-4 py-2 hover:bg-gray-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Prestaciones</Link>
 
-                    <Link href="/pages/sales&rent" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Venta y Alquileres</Link>
+                    <Link href="/pages/sales&rent" className="block px-4 py-2 hover:bg-gray-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Venta y Alquileres</Link>
                   </div>
                 </div>
               </div>
