@@ -24,73 +24,72 @@ const servicios = [
     ]   
   },
   {
-    id: 'detectores',
-    title: 'Detector de Gases Portátil',
-    description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
+    id: 'seguimiento',
+    title: 'Seguimiento Semanal de Acciones de Mejora/Correctivas con Herramienta iAuditor',
+    description: 'Nuestros procesos de Inspección y Auditoría son cargados automáticamente en la plataforma iAuditor en campo, mientras se realiza el trabajo correspondiente. Con nuestra basta experiencia y con ayuda de dicha plataforma de inspección, capturamos las acciones de mejora, asignándolas a uno o varios responsables para un seguimiento semanal, verificando no solo el cierre de las mismas sino la calidad y el tiempo de la resolución.',
     image: '/gasdetector.jpg',
     details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 3 hs. ',
+      
+    ]
+  },
+  {
+    id: 'auditoria',
+    title: 'Auditorías de Prevención de Caída de Objetos (DROPS)',
+    description: 'Revisión exhaustiva de cada elemento fijado en altura tomando como referencia las recomendaciones de las últimas versiones de DROPS. Los desvíos, dependiendo de su criticidad pueden ser tratados de inmediato o en un tiempo prudencial. El personal es capacitado in situ con propuestas de mejora y las acciones son seguidas semanalmente mediante la herramienta iAuditor lo que resulta en un servicio único y sin antecedentes.',
+    image: '/brigadistas.jpeg',
+    details: [
+      
+    ]
+  },
+  {
+    id: 'calibracion',
+    title: 'Calibración y mantenimiento preventivo de detectores de gases',
+    description: 'Con 15 años de experiencia y más de 1500 calibraciones realizadas, nuestro personal saca la máxima eficiencia a los equipos de detección utilizando componentes originales provistos por el fabricante.',
+    image: '/h2s.jpg',
+    details: [
+      
+    ]
+  },
+  {
+    id: 'sistematico',
+    title: 'Investigación de Incidentes Método Sistémico',
+    description: 'Nos especializamos en el modelo sistémico de investigación de incidentes, más allá del error humano o de la falla técnica, analizando los factores que están alejados del momento y lugar del suceso para una investigación exhaustiva que sirva para evitar la recurrencia de incidentes. ',
+    image: '/torre4.jpg',
+    details: [
+      
     ]
   },
   {
     id: 'era',
-    title: 'Uso de ERA',
-    description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
-    image: '/brigadistas.jpeg',
-    details: [
-      'Modalidad: Presencial',
-      'Duración: 3 Hs.',
-    ]
-  },
-  {
-    id: 'h2s',
-    title: 'Manejo de H2S',
-    description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
-    image: '/h2s.jpg',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 hs.',
-    ]
-  },
-  {
-    id: 'torre',
-    title: 'Inspección de Equipos de Torre',
-    description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
-    image: '/torre4.jpg',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 16 o 40 hs. Dependiendo el nivel',
-    ]
-  },
-  {
-    id: 'urig',
-    title: 'URig Pass | Pase al equipo',
-    description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
+    title: 'Mantenimiento de equipos autónomos. Carga de cilindros de alta y baja presión',
+    description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
     image: '/tubo.jpg',
     details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 Hs.',
+      
     ]
   },
   {
-    id: 'drops',
-    title: 'DROPS | Prevención caída de objetos',
-    description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
+    id: 'mediciones',
+    title: 'Mediciones higiénicas',
+    description: '',
     image: '/drops.webp',
     details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 hs.',
+      'Medición legal puesta a tierra PAT',
+      'Medición iluminación',
+      'Medición sonora',
+      'Medición carga térmica',
     ]
   },
   {
-    id: 'analista',
-    title: 'Analista de Gases',
-    description: 'El éxito de un trabajo en espacios confinados depende en gran medida de la precisión y exactitud de las mediciones de gases que se realicen y del conocimiento para realizarlas. En este curso, el participante recibirá todas las herramientas para realizar los trabajos con éxito generando las competencias necesarias en los ANALISTAS DE GASES que asisten a las personas que operan procesos de alto riesgo, para identificar atmósferas que pudieran ser nocivas, con el fin de evitar incidentes.',
+    id: 'campo',
+    title: 'Supervisión de campo',
+    description: '',
     image: '/higiene.webp',
     details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 4 hs.',
+      'Supervisión de Trabajos en altura',
+      'Supervisión de espacios confinados',
+      'Supervisión de Trabajos en caliente',
+      
     ]
   }  
 ];
