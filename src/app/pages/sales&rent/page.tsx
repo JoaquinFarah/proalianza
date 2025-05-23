@@ -2,12 +2,13 @@
 import React, { useState } from 'react';
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
+import Whatsapp from '@/app/components/Whatsapp';
 
 const servicios = [
   {
-    id: 'altura',
-    title: 'Trabajo en Altura',
-    description: 'Capacitación actualizada con las últimas disposiciones de la Resolución 61/2023. Incluye los tres niveles que exige dicha normativa: Superior, Intermedio y Operativo. Práctica con torre de entrenamiento móvil, uso de malacates, trípode y todos los EPP necesarios.',
+    id: 'era',
+    title: 'Equipos autónomos',
+    description: 'Venta y alquiler de equipos autónomos de última generación, con la mejor tecnología del mercado. Contamos con un equipo especializado para asesorarte en la compra o alquiler del equipo que mejor se adapte a tus necesidades.',
     image: '/torre3.jpg',
     details: [
       'Modalidad: Presencial',
@@ -16,8 +17,8 @@ const servicios = [
     ]
   },
   {
-    id: 'confinados',
-    title: 'Espacios Confinados',
+    id: 'epm',
+    title: 'Elementos de protección para el trabajo en altura',
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
     image: '/espaciosconfinados.jpg',
     details: [
@@ -99,13 +100,13 @@ const servicios = [
   }  
 ];
 
-const Servicios = () => {
+const SalesAndRent = () => {
   const [activeTab, setActiveTab] = useState(servicios[0].id);
 
   return (
     <div style={{ backgroundColor: '#f7950a' }} className="min-h-screen flex flex-col">
         <Navbar />
-      
+        <Whatsapp />
       <main className="flex-grow h-screen mt-20">
         {/* <div className="bg-proalianza-blue py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -178,4 +179,4 @@ const Servicios = () => {
   );
 };
 
-export default Servicios;
+export default SalesAndRent;

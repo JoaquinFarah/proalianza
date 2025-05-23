@@ -100,7 +100,7 @@ const servicios = [
   }  
 ];
 
-const Service = () => {
+const Training = () => {
   const [activeTab, setActiveTab] = useState(servicios[0].id);
 
   return (
@@ -179,4 +179,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Training;

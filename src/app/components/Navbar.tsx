@@ -53,12 +53,11 @@ const Navbar: React.FC = () => {
 
               <div className="absolute left-0 w-60 origin-top-left hover:backdrop-blur-lg rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 hover:bg-amber-500/70 group-hover:visible bg-white/30 transition duration-300 ease-in-out text-xl" style={{ textShadow: '2px 2px 4px #e5771b' }}>
                   <div className="py-2">
-                    <Link href="/pages/service/training" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Capacitaciones</Link>
-                    <Link href="/pages/service/height" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Trabajos en Altura</Link>
-                    <Link href="#" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Espacios Confinados</Link>
-                    <Link href="#" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Equipos Autónomos</Link>
-                    <Link href="#" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Mediciones Higiénicas</Link>
-                    <Link href="#" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Detectores de Gases</Link>
+                    <Link href="/pages/training" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Capacitaciones</Link>
+                    
+                    <Link href="/pages/service" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Servicios</Link>
+
+                    <Link href="/pages/sales&rent" className="block px-4 py-2 hover:bg-amber-500 hover:text-white no-underline decoration-2 transition-all duration-200 ease-in-out hover:underline hover:decoration-blue-400">Venta y Alquileres</Link>
                   </div>
                 </div>
               </div>
