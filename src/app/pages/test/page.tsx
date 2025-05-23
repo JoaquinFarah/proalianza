@@ -21,7 +21,7 @@ const servicios = [
     id: 'confinados',
     title: 'Espacios Confinados',
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/tubo.jpg',
+    image: '/espaciosconfinados.jpg',
     details: [
       'Evaluación de riesgos',
       'Planes de emergencia',
@@ -31,7 +31,7 @@ const servicios = [
   },
   {
     id: 'detectores',
-    title: 'Uso de sistemas portátiles de detección de gases',
+    title: 'Detector de Gases Portátil',
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
     image: '/gasdetector.jpg',
     details: [
@@ -40,19 +40,65 @@ const servicios = [
     ]
   },
   {
-    id: 'auditorias',
-    title: 'Auditorías',
-    description: 'Evaluaciones exhaustivas para identificar áreas de mejora y garantizar el cumplimiento de la normativa y los estándares de seguridad.',
-    image: 'https://images.unsplash.com/photo-1551836022-4c4c79ecde51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    id: 'era',
+    title: 'Uso de ERA',
+    description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
+    image: '/brigadistas.jpeg',
     details: [
-      'Auditorías de sistemas de gestión',
-      'Auditorías de cumplimiento normativo',
-      'Auditorías de seguridad',
-      'Auditorías de procesos',
-      'Auditorías de instalaciones',
-      'Auditorías energéticas'
+      'Modalidad: Presencial',
+      'Duración: 3 Hs.',
     ]
-  }
+  },
+  {
+    id: 'h2s',
+    title: 'Manejo de H2S',
+    description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
+    image: '/h2s.jpg',
+    details: [
+      'Modalidad: Presencial y on line',
+      'Duración: 8 hs.',
+    ]
+  },
+  {
+    id: 'torre',
+    title: 'Inspección de Equipos de Torre',
+    description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
+    image: '/torre4.jpg',
+    details: [
+      'Modalidad: Presencial y on line',
+      'Duración: 16 o 40 hs. dependiendo el nivel',
+    ]
+  },
+  {
+    id: 'urig',
+    title: 'URig Pass | Pase al equipo',
+    description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
+    image: '/tubo.jpg',
+    details: [
+      'Modalidad: Presencial y on line',
+      'Duración: 8 Hs.',
+    ]
+  },
+  {
+    id: 'drops',
+    title: 'DROPS | Prevención caída de objetos',
+    description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
+    image: '/drops.webp',
+    details: [
+      'Modalidad: Presencial y on line',
+      'Duración: 8 hs.',
+    ]
+  },
+  {
+    id: 'analista',
+    title: 'Analista de Gases',
+    description: 'El éxito de un trabajo en espacios confinados depende en gran medida de la precisión y exactitud de las mediciones de gases que se realicen y del conocimiento para realizarlas. En este curso, el participante recibirá todas las herramientas para realizar los trabajos con éxito generando las competencias necesarias en los ANALISTAS DE GASES que asisten a las personas que operan procesos de alto riesgo, para identificar atmósferas que pudieran ser nocivas, con el fin de evitar incidentes.',
+    image: '/higiene.webp',
+    details: [
+      'Modalidad: Presencial y on line',
+      'Duración: 4 hs.',
+    ]
+  }  
 ];
 
 const Servicios = () => {
@@ -62,15 +108,15 @@ const Servicios = () => {
     <div className="min-h-screen flex flex-col bg-amber-400">
         <Navbar />
       
-      <main className="flex-grow mb-10">
-        <div className="bg-proalianza-blue py-20">
+      <main className="flex-grow h-screen mt-20">
+        {/* <div className="bg-proalianza-blue py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-6">Capacitaciones</h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Soluciones integrales adaptadas a las necesidades específicas de tu industria
             </p>
           </div>
-        </div>
+        </div> */}
         
         <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
