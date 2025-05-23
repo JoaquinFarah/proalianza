@@ -9,18 +9,20 @@ const servicios = [
     id: 'era',
     title: 'Equipos autónomos',
     description: 'Venta y alquiler de equipos autónomos de última generación, con la mejor tecnología del mercado. Contamos con un equipo especializado para asesorarte en la compra o alquiler del equipo que mejor se adapte a tus necesidades.',
-    image: '/torre3.jpg',
+    image: '/autonomo.jpg',
     details: [
-      'Modalidad: Presencial',
-      'Duración: 3 a 6 hs. Dependiendo el nivel',
+      'Garantía por 1 año',
+      'Manuales de uso',
+      'Certificado de calibración',
+      'Recarga',
 
     ]
   },
   {
-    id: 'epm',
+    id: 'altura',
     title: 'Elementos de protección para el trabajo en altura',
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/espaciosconfinados.jpg',
+    image: '/epp.webp',
     details: [
       'Evaluación de riesgos',
       'Planes de emergencia',
@@ -29,75 +31,16 @@ const servicios = [
     ]
   },
   {
-    id: 'detectores',
-    title: 'Detector de Gases Portátil',
+    id: 'izaje',
+    title: 'Elementos de sujeción e izaje de carga',
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
-    image: '/gasdetector.jpg',
+    image: '/izaje.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 3 hs. ',
     ]
-  },
-  {
-    id: 'era',
-    title: 'Uso de ERA',
-    description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
-    image: '/brigadistas.jpeg',
-    details: [
-      'Modalidad: Presencial',
-      'Duración: 3 Hs.',
-    ]
-  },
-  {
-    id: 'h2s',
-    title: 'Manejo de H2S',
-    description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
-    image: '/h2s.jpg',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 hs.',
-    ]
-  },
-  {
-    id: 'torre',
-    title: 'Inspección de Equipos de Torre',
-    description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
-    image: '/torre4.jpg',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 16 o 40 hs. Dependiendo el nivel',
-    ]
-  },
-  {
-    id: 'urig',
-    title: 'URig Pass | Pase al equipo',
-    description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
-    image: '/tubo.jpg',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 Hs.',
-    ]
-  },
-  {
-    id: 'drops',
-    title: 'DROPS | Prevención caída de objetos',
-    description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
-    image: '/drops.webp',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 8 hs.',
-    ]
-  },
-  {
-    id: 'analista',
-    title: 'Analista de Gases',
-    description: 'El éxito de un trabajo en espacios confinados depende en gran medida de la precisión y exactitud de las mediciones de gases que se realicen y del conocimiento para realizarlas. En este curso, el participante recibirá todas las herramientas para realizar los trabajos con éxito generando las competencias necesarias en los ANALISTAS DE GASES que asisten a las personas que operan procesos de alto riesgo, para identificar atmósferas que pudieran ser nocivas, con el fin de evitar incidentes.',
-    image: '/higiene.webp',
-    details: [
-      'Modalidad: Presencial y on line',
-      'Duración: 4 hs.',
-    ]
-  }  
+  }, 
+  
 ];
 
 const SalesAndRent = () => {
@@ -108,15 +51,7 @@ const SalesAndRent = () => {
         <Navbar />
         <Whatsapp />
       <main className="flex-grow h-screen mt-20">
-        {/* <div className="bg-proalianza-blue py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl font-bold text-white mb-6">Capacitaciones</h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Soluciones integrales adaptadas a las necesidades específicas de tu industria
-            </p>
-          </div>
-        </div> */}
-        
+       
         <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
@@ -155,9 +90,7 @@ const SalesAndRent = () => {
                           </div>
                         ))}
                       </div>
-                      {/* <button className="mt-8 bg-proalianza-orange text-white font-bold py-3 px-8 rounded-md hover:bg-orange-600 transition duration-300">
-                        Más información
-                      </button> */}
+                      
                     </div>
                     <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
                       <img 
