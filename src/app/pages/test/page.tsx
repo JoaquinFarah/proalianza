@@ -11,8 +11,6 @@ const servicios = [
     image: '/torre3.jpg',
     details: [
       'Modalidad: Presencial',
-      'Manejo de equipamiento',
-      'Prevención de riesgos',
       'Duración: 3 a 6 hs. Dependiendo el nivel',
 
     ]
@@ -66,7 +64,7 @@ const servicios = [
     image: '/torre4.jpg',
     details: [
       'Modalidad: Presencial y on line',
-      'Duración: 16 o 40 hs. dependiendo el nivel',
+      'Duración: 16 o 40 hs. Dependiendo el nivel',
     ]
   },
   {
@@ -105,7 +103,7 @@ const Servicios = () => {
   const [activeTab, setActiveTab] = useState(servicios[0].id);
 
   return (
-    <div className="min-h-screen flex flex-col bg-amber-400">
+    <div style={{ backgroundColor: '#f7950a' }} className="min-h-screen flex flex-col">
         <Navbar />
       
       <main className="flex-grow h-screen mt-20">
@@ -127,8 +125,8 @@ const Servicios = () => {
                   onClick={() => setActiveTab(servicio.id)}
                   className={`px-6 py-3 rounded-md text-lg font-medium transition-colors ${
                     activeTab === servicio.id
-                      ? 'bg-proalianza-orange text-white'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                      ? 'bg-gray-700 text-white'
+                      : 'bg-gray-50 text-gray-700 hover:bg-gray-300 hover: cursor-pointer'
                   }`}
                 >
                   {servicio.title}
@@ -147,11 +145,11 @@ const Servicios = () => {
                   <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                       <h2 className="text-3xl font-bold mb-6">{servicio.title}</h2>
-                      <p className="text-lg text-gray-600 mb-8">{servicio.description}</p>
+                      <p className="text-xl text-gray-700 mb-8">{servicio.description}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {servicio.details.map((detail, index) => (
                           <div key={index} className="flex items-center">
-                            <div className="text-proalianza-orange mr-2">✓</div>
+                            <div className="mr-2">✓</div>
                             <p className="text-gray-700">{detail}</p>
                           </div>
                         ))}
@@ -166,7 +164,7 @@ const Servicios = () => {
                         alt={servicio.title} 
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute inset-0 bg-proalianza-blue/30"></div>
+                      <div className="absolute inset-0"></div>
                     </div>
                   </div>
                 </div>
