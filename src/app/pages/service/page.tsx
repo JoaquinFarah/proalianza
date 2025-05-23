@@ -108,14 +108,6 @@ const Service = () => {
         <Navbar />
         <Whatsapp />
       <main className="flex-grow h-screen mt-20">
-        {/* <div className="bg-proalianza-blue py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl font-bold text-white mb-6">Capacitaciones</h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Soluciones integrales adaptadas a las necesidades específicas de tu industria
-            </p>
-          </div>
-        </div> */}
         
         <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -155,9 +147,7 @@ const Service = () => {
                           </div>
                         ))}
                       </div>
-                      {/* <button className="mt-8 bg-proalianza-orange text-white font-bold py-3 px-8 rounded-md hover:bg-orange-600 transition duration-300">
-                        Más información
-                      </button> */}
+                      
                     </div>
                     <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
                       <img 

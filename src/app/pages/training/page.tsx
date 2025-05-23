@@ -22,8 +22,6 @@ const servicios = [
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
     image: '/espaciosconfinados.jpg',
     details: [
-      'Evaluación de riesgos',
-      'Planes de emergencia',
       'Modalidad: Presencial',
       'Duración: 3 a 6 hs. Dependiendo el nivel',
     ]
@@ -96,6 +94,7 @@ const servicios = [
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 4 hs.',
+      'En Alianza con WCI'
     ]
   }  
 ];
