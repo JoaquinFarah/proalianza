@@ -13,7 +13,7 @@ export default function ContactForm() {
       window.open(url, '_blank');
   };
   const handleAddress = () => {     
-    const url = `https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed`;
+    const url = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.294976822201!2d-68.87453211856875!3d-33.075023405316585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e75b74ddd56fb%3A0x12d4dd49a9ccc0c0!2sTerrada%203907%2C%20Mendoza%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1748000436975!5m2!1ses-419!2sus`;
     window.open(url, '_blank');
   };
   return (
@@ -81,13 +81,20 @@ export default function ContactForm() {
         </div> 
         {/* Right side */} 
         <div className="mt-6">
-          <iframe
+          {/* <iframe
             title="Google Map"
             src="https://www.google.com/maps?q=Cnel.+Terrada+3907,+Perdriel,+Luján+de+Cuyo,+Mendoza&output=embed"
             className="w-full h-80 rounded-md border border-gray-300 shadow-lg"
             loading="lazy"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
+
+          <iframe 
+          title="Google Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.294976822201!2d-68.87453211856875!3d-33.075023405316585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e75b74ddd56fb%3A0x12d4dd49a9ccc0c0!2sTerrada%203907%2C%20Mendoza%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1748000436975!5m2!1ses-419!2sus" className="w-full h-125 rounded-md border border-gray-300 shadow-lg"
+          loading="lazy"
+          allowFullScreen>
+          </iframe>
         </div>
       </div>
     </section>    

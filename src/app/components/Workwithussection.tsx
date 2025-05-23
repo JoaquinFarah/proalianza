@@ -78,7 +78,7 @@ const stats = [
 const Workwithussection = () => (
   <section
     style={{
-      background: "#F59C13",
+      background: "#f7950a",
       color: "#000",
       padding: "48px 0 40px 0",
       textAlign: "center",
