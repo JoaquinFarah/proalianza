@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Whatsapp() {
   const handleClick = () => {
-    const phoneNumber = '2616848392';
+    const phoneNumber = '2613829838';
     const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
