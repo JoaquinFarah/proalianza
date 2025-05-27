@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../components/Navbar';
 import Whatsapp from '@/app/components/Whatsapp';
-import ContactBanner from '@/app/components/Contactbanner';
 import ContactForm from '@/app/components/Contactform';
 import Footer from '@/app/components/Footer';
 import Workwithussection from '@/app/components/Workwithussection';
@@ -30,7 +29,7 @@ export default function ContactPage() {
         </div>
       </div>
     <ContactForm />
-    <ContactBanner />
+    
     <Workwithussection />
     <Footer />
     </div>
