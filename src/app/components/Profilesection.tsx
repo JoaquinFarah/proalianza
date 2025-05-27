@@ -106,7 +106,7 @@ const TripleLeft = () => (
               Nos destacamos por nuestra atención al cliente, compromiso con la calidad y un enfoque proactivo en la resolución de sus problemas.
               </p> 
               <p className="text-3xl flex text-center items-center mt-10 text-pretty font-bold">
-              No solo somos un proveedor, somos un socio estratégico que impulsa el éxito de tu proyecto.
+              No solo somos un proveedor, somos un aliado estratégico que impulsa el éxito de tu proyecto.
               </p>             
             </div>
           </div>
