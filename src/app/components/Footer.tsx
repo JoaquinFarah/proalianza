@@ -76,21 +76,24 @@ export default function Footer() {
           <button onClick={handleClick} className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📞</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
-              +54 9 261 6848392              
+              +54 9 261 6848392<br />
+              +54 9 261 3829838             
             </div>
           </button>
           {/* Email */}
           <button onClick={handleMail} className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>✉️</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
-              proalianzamdz@gmail.com
+              proalianzamdz@gmail.com<br />
+               <br />
             </div>
           </button>
           {/* Instagram */}
           <button className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📷</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
-              proalianza.mdz
+              proalianza.mdz<br />
+              <br />
             </div>
           </button>
         </div>
