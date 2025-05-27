@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   const handleClick = () => {
-        const phoneNumber = '2616848392';
+        const phoneNumber = '2613829838';
         const message = '¡Buenos días! Me gustaría ponerme en contacto con ustedes para ser asesorado.';
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
@@ -76,8 +76,8 @@ export default function Footer() {
           <button onClick={handleClick} className="text-center text-white hover: cursor-pointer">
             <div style={{ fontSize: "2rem" }}>📞</div>
             <div style={{ fontWeight: "bold", marginTop: 8 }}>
-              +54 9 261 6848392<br />
-              +54 9 261 3829838             
+              +54 9 261 3829838<br />
+              <br />            
             </div>
           </button>
           {/* Email */}
