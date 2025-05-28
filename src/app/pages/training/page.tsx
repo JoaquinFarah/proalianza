@@ -20,7 +20,7 @@ const servicios = [
     id: 'confinados',
     title: 'Espacios Confinados',
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/espaciosconfinados.jpg',
+    image: '/cursoconfinados.jpg',
     details: [
       'Modalidad: Presencial',
       'Duración: 3 a 6 hs. Dependiendo el nivel',
