@@ -43,26 +43,6 @@ const stats = [
     bold: false,
   },
   {
-    value: "+750",
-    label: (
-      <>
-        Autónomos<br />
-        recargados
-      </>
-    ),
-    bold: false,
-  },
-  {
-    value: "+1500",
-    label: (
-      <>
-        Detectores de<br />
-        gas calibrados
-      </>
-    ),
-    bold: false,
-  },
-  {
     value: "+200",
     label: (
       <>
