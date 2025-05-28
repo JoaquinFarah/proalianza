@@ -3,7 +3,7 @@ import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon, CameraIcon, ClockIcon 
 
 export default function ContactForm() {
   const handleClick = () => {
-    const phoneNumber = '2616848392';
+    const phoneNumber = '2613829838';
     const message = '¡Buenos días! Me gustaria ponerme en contacto con ustedes para ser asesorado.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -54,7 +54,7 @@ export default function ContactForm() {
               <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Teléfono</h1>
             </div>
             <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
-              <p>+54 9 2616 84-8392</p>
+              <p>+54 9 2613829838</p>
             </button>
 
             <div className="flex items-start gap-3">
