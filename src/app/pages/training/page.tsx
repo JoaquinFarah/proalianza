@@ -60,15 +60,15 @@ const servicios = [
     id: 'torre',
     title: 'Inspección de Equipos de Torre',
     description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
-    image: '/torre4.jpg',
+    image: '/inspecciontorre.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 16 o 40 hs. Dependiendo el nivel',
     ]
   },
   {
-    id: 'urig',
-    title: 'URig Pass | Pase al equipo',
+    id: 'rig',
+    title: 'Rig Pass | Pase al equipo',
     description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
     image: '/tubo.jpg',
     details: [
@@ -90,7 +90,7 @@ const servicios = [
     id: 'analista',
     title: 'Analista de Gases',
     description: 'El éxito de un trabajo en espacios confinados depende en gran medida de la precisión y exactitud de las mediciones de gases que se realicen y del conocimiento para realizarlas. En este curso, el participante recibirá todas las herramientas para realizar los trabajos con éxito generando las competencias necesarias en los ANALISTAS DE GASES que asisten a las personas que operan procesos de alto riesgo, para identificar atmósferas que pudieran ser nocivas, con el fin de evitar incidentes.',
-    image: '/higiene.webp',
+    image: '/analistagases.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 4 hs.',
