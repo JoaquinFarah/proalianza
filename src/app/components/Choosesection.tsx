@@ -62,7 +62,7 @@ export default function ChooseSection() {
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
               Ofrecemos soluciones avanzadas para identificar y mitigar riesgos
-              en entornos laborales de alto peligro
+              en entornos laborales de alto riesgo
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
@@ -99,7 +99,7 @@ export default function ChooseSection() {
               Capacitación Especializada
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
-              Brindamos formación especializada para garantizar que los equipos
+              Brindamos formación especializada para garantizar que los equipos de trabajo
               estén preparados para enfrentar desafíos críticos
             </p>
           </div>
@@ -120,12 +120,11 @@ export default function ChooseSection() {
               style={{ backgroundColor: "#f7950a" }}
               className="text-3xl font-semibold mt-5 p-2"
             >
-              Productos y Servicios de Óptima calidad
+              Productos y Servicios de Óptima Calidad
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
-              Los mejores materiales disponibles en el mercado para garantizar
-              la excelencia tanto a nuestro personal como a nuestros clientes
-              para asegurarles la tranquilidad para cumplir con las exigencias
+              Los mejores materiales disponibles en el mercado garantizando la
+              la excelencia tanto a nuestro personal como a nuestros clientes, asegurando la tranquilidad para cumplir con las exigencias
               de los mismos
             </p>
           </div>
@@ -141,13 +140,13 @@ export default function ChooseSection() {
               style={{ backgroundColor: "#f7950a" }}
               className="text-3xl font-semibold mt-5 p-2"
             >
-              Experiencia comprobable
+              Experiencia Comprobable
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
-              Porque nuestro staff ha pasado los últimos 20 años en áreas de
+              Porque nuestro staff ha pasado los últimos 30 años en áreas de
               seguridad laboral y capacitaciones permanentes, estamos seguros
-              que podemos ofrecer todo lo que sabemos. Cuando hay conocimiento
-              se hace notar{" "}
+              que podemos ofrecer todo lo que sabemos. ´´Cuando hay conocimiento
+              se hace notar´´{" "}
             </p>
           </div>
         </div>
