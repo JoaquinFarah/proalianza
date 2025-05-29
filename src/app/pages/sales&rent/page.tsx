@@ -22,7 +22,7 @@ const servicios = [
     id: 'altura',
     title: 'Elementos de protección para el trabajo en altura',
     description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/epp.webp',
+    image: '/epp1.jpg',
     details: [
       'Evaluación de entornos de trabajo',
       'Planes de mantenimiento',
