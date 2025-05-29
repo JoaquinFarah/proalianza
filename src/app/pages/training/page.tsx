@@ -80,7 +80,7 @@ const servicios = [
     id: 'drops',
     title: 'DROPS | Prevención caída de objetos',
     description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
-    image: '/drops.webp',
+    image: '/drops.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 8 hs.',

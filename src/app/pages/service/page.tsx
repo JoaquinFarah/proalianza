@@ -9,70 +9,75 @@ const servicios = [
     id: 'inspeccion',
     title: 'Inspección de equipos de Torre',
     description: 'Incremente la productividad y eficiencia ya que los equipos y periféricos son probados a su máxima capacidad antes de iniciar un contrato o luego de una inspección cat. IV (IND) garantizando un óptimo funcionamiento durante la operación. También se obtiene un incremento en los niveles de seguridad en la operación y mejora en los indicadores de accidentabilidad. Tenemos basta experiencia en inspecciones visuales de seguridad como también de integridad.',
-    image: '/torre3.jpg', 
+    image: '/placeholder.png',
     details: [
-      
-    ]   
+
+    ]
   },
   {
     id: 'optimizacion',
     title: 'Optimización de operaciones en equipo de torre',
     description: 'Es nuestra especialidad y lo que más nos apasiona, con énfasis en equipos de Workover y Pulling. Optimice sus operaciones al tiempo que incrementa la seguridad y reduce los costos operativos. Este programa plantea el desafío de poder incrementar la eficiencia y bajar costos de operación, mejorando a su vez los estándares de seguridad. Sabemos cómo hacerlo con o sin inversión. ',
-    image: '/espaciosconfinados.jpg', 
+    image: '/placeholder.png',
     details: [
-      
-    ]   
+
+    ]
   },
   {
     id: 'seguimiento',
     title: 'Seguimiento Semanal de Acciones de Mejora/Correctivas con Herramienta iAuditor',
     description: 'Nuestros procesos de Inspección y Auditoría son cargados automáticamente en la plataforma iAuditor en campo, mientras se realiza el trabajo correspondiente. Con nuestra basta experiencia y con ayuda de dicha plataforma de inspección, capturamos las acciones de mejora, asignándolas a uno o varios responsables para un seguimiento semanal, verificando no solo el cierre de las mismas sino la calidad y el tiempo de la resolución.',
-    image: '/gasdetector.jpg',
+    image: '/placeholder.png',
     details: [
-      
+
     ]
   },
   {
     id: 'auditoria',
     title: 'Auditorías de Prevención de Caída de Objetos (DROPS)',
     description: 'Revisión exhaustiva de cada elemento fijado en altura tomando como referencia las recomendaciones de las últimas versiones de DROPS. Los desvíos, dependiendo de su criticidad pueden ser tratados de inmediato o en un tiempo prudencial. El personal es capacitado in situ con propuestas de mejora y las acciones son seguidas semanalmente mediante la herramienta iAuditor lo que resulta en un servicio único y sin antecedentes.',
-    image: '/brigadistas.jpeg',
+    image: '/placeholder.png',
+
     details: [
-      
+
     ]
   },
   {
     id: 'calibracion',
     title: 'Calibración y mantenimiento preventivo de detectores de gases',
     description: 'Con 15 años de experiencia y más de 1500 calibraciones realizadas, nuestro personal saca la máxima eficiencia a los equipos de detección utilizando componentes originales provistos por el fabricante.',
-    image: '/h2s.jpg',
+    image: '/placeholder.png',
+
     details: [
-      
+
     ]
   },
   {
     id: 'sistematico',
     title: 'Investigación de Incidentes Método Sistémico',
     description: 'Nos especializamos en el modelo sistémico de investigación de incidentes, más allá del error humano o de la falla técnica, analizando los factores que están alejados del momento y lugar del suceso para una investigación exhaustiva que sirva para evitar la recurrencia de incidentes. ',
-    image: '/torre4.jpg',
+    image: '/placeholder.png',
+
     details: [
-      
+
     ]
   },
   {
     id: 'era',
     title: 'Mantenimiento de equipos autónomos. Carga de cilindros de alta y baja presión',
     description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
-    image: '/tubo.jpg',
+    image: '/placeholder.png',
+
     details: [
-      
+
     ]
   },
   {
     id: 'mediciones',
     title: 'Mediciones higiénicas',
     description: '',
-    image: '/drops.webp',
+    image: '/placeholder.png',
+
     details: [
       'Medición legal puesta a tierra PAT',
       'Medición iluminación',
@@ -84,14 +89,15 @@ const servicios = [
     id: 'campo',
     title: 'Supervisión de campo',
     description: '',
-    image: '/higiene.webp',
+    image: '/placeholder.png',
+
     details: [
       'Supervisión de Trabajos en altura',
       'Supervisión de espacios confinados',
       'Supervisión de Trabajos en caliente',
-      
+
     ]
-  }  
+  }
 ];
 
 const Service = () => {
@@ -99,10 +105,10 @@ const Service = () => {
 
   return (
     <div style={{ backgroundColor: '#f7950a' }} className="min-h-screen flex flex-col">
-        <Navbar />
-        <Whatsapp />
-      <main className="flex-grow h-screen mt-20">
-        
+      <Navbar />
+      <Whatsapp />
+      <main className="flex-grow h-screen mt-20 mb-20">
+
         <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
@@ -110,24 +116,22 @@ const Service = () => {
                 <button
                   key={servicio.id}
                   onClick={() => setActiveTab(servicio.id)}
-                  className={`px-6 py-3 rounded-md text-lg font-medium transition-colors ${
-                    activeTab === servicio.id
-                      ? 'bg-gray-700 text-white'
-                      : 'bg-gray-50 text-gray-700 hover:bg-gray-300 hover: cursor-pointer'
-                  }`}
+                  className={`px-6 py-3 rounded-md text-lg font-medium transition-colors ${activeTab === servicio.id
+                    ? 'bg-gray-700 text-white'
+                    : 'bg-gray-50 text-gray-700 hover:bg-gray-300 hover: cursor-pointer'
+                    }`}
                 >
                   {servicio.title}
                 </button>
               ))}
             </div>
-            
+
             <div className="mt-12">
               {servicios.map((servicio) => (
                 <div
                   key={servicio.id}
-                  className={`${
-                    activeTab === servicio.id ? 'block' : 'hidden'
-                  }`}
+                  className={`${activeTab === servicio.id ? 'block' : 'hidden'
+                    }`}
                 >
                   <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div>
@@ -141,12 +145,12 @@ const Service = () => {
                           </div>
                         ))}
                       </div>
-                      
+
                     </div>
                     <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                      <img 
-                        src={servicio.image} 
-                        alt={servicio.title} 
+                      <img
+                        src={servicio.image}
+                        alt={servicio.title}
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute inset-0"></div>
