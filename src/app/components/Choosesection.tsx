@@ -48,7 +48,7 @@ export default function ChooseSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 px-10">
           <div className="flex flex-col items-center text-center">
             <Image
-              src="/Risk.svg"
+              src="/ribbonwhite.svg"
               alt="High Risk Company 1"
               width={100}
               height={100}
@@ -67,7 +67,7 @@ export default function ChooseSection() {
           </div>
           <div className="flex flex-col items-center text-center">
             <Image
-              src="/Protectionico.svg"
+              src="/shieldwhite.svg"
               alt="High Risk Company 2"
               width={100}
               height={100}
@@ -86,7 +86,7 @@ export default function ChooseSection() {
           </div>
           <div className="flex flex-col items-center text-center">
             <Image
-              src="/Special.svg"
+              src="/omegawhite.svg"
               alt="High Risk Company 3"
               width={100}
               height={100}
@@ -110,7 +110,7 @@ export default function ChooseSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 px-50">
           <div className="flex flex-col items-center text-center">
             <Image
-              src="/Hat.svg"
+              src="/helmetwhite.svg"
               alt="High Risk Company 1"
               width={100}
               height={100}
@@ -131,7 +131,7 @@ export default function ChooseSection() {
           </div>
           <div className="flex flex-col mt-5 items-center text-center">
             <Image
-              src="/Hands.svg"
+              src="/handswhite.svg"
               alt="High Risk Company 2"
               width={100}
               height={100}
