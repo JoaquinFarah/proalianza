@@ -7,7 +7,7 @@ import Whatsapp from '@/app/components/Whatsapp';
 const servicios = [
   {
     id: 'altura',
-    title: 'Trabajo en Altura',
+    title: 'Trabajos en Altura',
     description: 'Capacitación actualizada con las últimas disposiciones de la Resolución 61/2023. Incluye los tres niveles que exige dicha normativa: Superior, Intermedio y Operativo. Práctica con torre de entrenamiento móvil, uso de malacates, trípode y todos los EPP necesarios.',
     image: '/torre3.jpg',
     details: [
@@ -28,7 +28,7 @@ const servicios = [
   },
   {
     id: 'detectores',
-    title: 'Detector de Gases Portátil',
+    title: 'Detectores de Gases Portátiles',
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
     image: '/gasdetector.jpg',
     details: [
@@ -38,7 +38,7 @@ const servicios = [
   },
   {
     id: 'era',
-    title: 'Uso de ERA',
+    title: 'Usos de ERA',
     description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
     image: '/era.JPG',
     details: [
@@ -48,7 +48,7 @@ const servicios = [
   },
   {
     id: 'h2s',
-    title: 'Manejo de H2S',
+    title: 'Manejos de H2S',
     description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
     image: '/h2s.jpg',
     details: [
@@ -58,7 +58,7 @@ const servicios = [
   },
   {
     id: 'torre',
-    title: 'Inspección de Equipos de Torre',
+    title: 'Inspecciónes de Equipos de Torre',
     description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
     image: '/inspecciontorre.jpg',
     details: [
@@ -68,7 +68,7 @@ const servicios = [
   },
   {
     id: 'rig',
-    title: 'Rig Pass | Pase al equipo',
+    title: 'Rig Pass | Pases a equipos',
     description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
     image: '/tubo.jpg',
     details: [
@@ -88,7 +88,7 @@ const servicios = [
   },
   {
     id: 'analista',
-    title: 'Analista de Gases',
+    title: 'Analistas de Gases',
     description: 'El éxito de un trabajo en espacios confinados depende en gran medida de la precisión y exactitud de las mediciones de gases que se realicen y del conocimiento para realizarlas. En este curso, el participante recibirá todas las herramientas para realizar los trabajos con éxito generando las competencias necesarias en los ANALISTAS DE GASES que asisten a las personas que operan procesos de alto riesgo, para identificar atmósferas que pudieran ser nocivas, con el fin de evitar incidentes.',
     image: '/analistagases.jpg',
     details: [
