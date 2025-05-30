@@ -33,10 +33,10 @@ const servicios = [
     ]
   },
   {
-    id: 'auditoria',
+    id: 'drops',
     title: 'Auditorías de Prevención de Caída de Objetos (DROPS)',
     description: 'Revisión exhaustiva de cada elemento fijado en altura tomando como referencia las recomendaciones de las últimas versiones de DROPS. Los desvíos, dependiendo de su criticidad pueden ser tratados de inmediato o en un tiempo prudencial. El personal es capacitado in situ con propuestas de mejora y las acciones son seguidas semanalmente mediante la herramienta iAuditor lo que resulta en un servicio único y sin antecedentes.',
-    image: '/placeholder.png',
+    image: '/drops.jpg',
 
     details: [
 
