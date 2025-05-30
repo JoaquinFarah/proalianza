@@ -28,10 +28,11 @@ export default function ContactPage() {
           <p className="py-1 mt-1"> Somos la solución <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">INTEGRAL</span> y <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1  rounded ">EFICIENTE</span> para tu proyecto</p> 
         </div>
       </div>
-    <ContactForm />
-    
+
+    <ContactForm />    
     <Workwithussection />
     <Footer />
+    
     </div>
   );
 }

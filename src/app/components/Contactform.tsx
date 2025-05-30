@@ -33,7 +33,8 @@ export default function ContactForm() {
 
             <div className="flex items-start gap-3">
               <MapPinIcon className="w-20 h-10 text-white" />
-              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Dirección</h1>
+              <h1 className="text-2xl font-bold p-1 rounded-sm">Dirección</h1>
+              {/* <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Dirección</h1> */}
             </div>
             <div>
               <button onClick={handleAddress} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
@@ -43,7 +44,7 @@ export default function ContactForm() {
 
             <div className="flex items-start gap-3">
               <ClockIcon className="w-20 h-10 text-white" />
-              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Horarios de atención</h1>
+              <h1 className="text-2xl font-bold p-1 rounded-sm">Horarios de atención</h1>
             </div>
             <button className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
                 <p>Lunes a viernes de 9:00 a 18:00hs.</p>
@@ -51,7 +52,7 @@ export default function ContactForm() {
 
             <div className="flex items-start gap-3">
               <DevicePhoneMobileIcon className="w-20 h-10 text-white" />
-              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Teléfono</h1>
+              <h1 className="text-2xl font-bold p-1 rounded-sm">Teléfono</h1>
             </div>
             <button onClick={handleClick} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
               <p>+54 9 2613829838</p>
@@ -59,7 +60,7 @@ export default function ContactForm() {
 
             <div className="flex items-start gap-3">
               <EnvelopeIcon className="w-20 h-10 text-white" />
-              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Correo</h1>
+              <h1 className="text-2xl font-bold p-1 rounded-sm">Correo</h1>
             </div>
             <div className="flex items-center gap-3">
               <button onClick={handleMail} className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
@@ -69,7 +70,7 @@ export default function ContactForm() {
 
             <div className="flex items-start gap-3">
               <CameraIcon className="w-20 h-10 text-white" />
-              <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Instagram</h1>
+              <h1 className="text-2xl font-bold p-1 rounded-sm">Instagram</h1>
             </div>
             <div className="flex items-center gap-3">
               <button className="flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
