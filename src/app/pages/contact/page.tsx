@@ -23,7 +23,7 @@ export default function ContactPage() {
           <p className="py-1"><span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded uppercase">Comunicate con nosotros</span></p>
           <p className="py-1"> Somos la solución <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">integral</span> y <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1  rounded ">eficiente</span> para tu proyecto</p> 
         </div> */}
-        <div className="absolute top-3/5 left-1/5 transform -translate-x-1/5 -translate-y-1 text-white text-4xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs w-full" >
+        <div className="absolute top-3/5 left-1/5 transform -translate-x-1/5 -translate-y-1 text-white text-4xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs w-full uppercase">
           <p className="py-1"><span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded uppercase">Comunicate con nosotros</span></p>
           <p className="py-1 mt-1"> Somos la solución <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">INTEGRAL</span> y <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1  rounded ">EFICIENTE</span> para tu proyecto</p> 
         </div>
