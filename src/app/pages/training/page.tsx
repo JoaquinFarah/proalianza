@@ -8,7 +8,7 @@ const servicios = [
   {
     id: 'altura',
     title: 'Trabajos en Altura',
-    description: 'Capacitación actualizada con las últimas disposiciones de la Resolución 61/2023. Incluye los tres niveles que exige dicha normativa: Superior, Intermedio y Operativo. Práctica con torre de entrenamiento móvil, uso de malacates, trípode y todos los EPP necesarios.',
+    description: 'Capacitación actualizada con las últimas disposiciones de la Resolución 61/2023. Incluye los tres niveles que exige dicha normativa: Superior, Intermedio y Operativo. Práctica con plataforma de entrenamiento móvil, uso de malacates, trípode y todos los EPP necesarios.',
     image: '/torre3.jpg',
     details: [
       'Modalidad: Presencial',
@@ -17,15 +17,19 @@ const servicios = [
     ]
   },
   {
-    id: 'confinados',
-    title: 'Espacios Confinados',
-    description: 'Con prácticas en distintos niveles en nuestra exclusiva unidad de entrenamiento móvil la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.',
-    image: '/cursoconfinados.jpg',
-    details: [
-      'Modalidad: Presencial',
-      'Duración: 3 a 6 hs. Dependiendo el nivel',
-    ]
-  },
+  id: 'confinados',
+  title: 'Espacios Confinados',
+  description: (
+    <>
+      Con prácticas en distintos niveles en nuestra exclusiva <strong>unidad de entrenamiento móvil</strong> la cual simula las más variadas situaciones de dificultad que incluyen el uso de equipos autónomos, trípodes, malacates y escasa visibilidad para un entrenamiento realmente avanzado y real.
+    </>
+  ),
+  image: '/cursoconfinados.jpg',
+  details: [
+    'Modalidad: Presencial',
+    'Duración: 3 a 6 hs. Dependiendo el nivel',
+  ]
+},
   {
     id: 'detectores',
     title: 'Detectores de Gases Portátiles',
@@ -68,9 +72,9 @@ const servicios = [
   },
   {
     id: 'rig',
-    title: 'Rig Pass | Pases a equipos',
+    title: 'Rig Pass | Pase al equipo',
     description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
-    image: '/tubo.jpg',
+    image: '/rigpass.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 8 Hs.',
