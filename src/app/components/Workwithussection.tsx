@@ -23,10 +23,16 @@ const stats = [
     value: "+7000",
     label: (
       <>
-        Acciones de<br />
-        mejoras gestionadas<br />
-        (sólo en los<br />
-        últimos 4 años)
+        Acciones de mejora<br />
+        Gestionadas (solo en los<br />
+        últimos 5 años)<br />
+        Servicios de Inspección y<br />
+        gestión de Acciones:<br />
+        Perforación/<br />
+        Workover/ Pulling &<br />
+        Flush By/ Eq. Mineros/ Slik<br />
+        Line/ Wire Line/ Eq. de<br />        
+        Cementación & Fractura        
       </>
     ),
     bold: false,

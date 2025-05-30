@@ -41,17 +41,7 @@ const servicios = [
     details: [
 
     ]
-  },
-  {
-    id: 'calibracion',
-    title: 'Calibración y mantenimiento preventivo de detectores de gases',
-    description: 'Con 15 años de experiencia y más de 1500 calibraciones realizadas, nuestro personal saca la máxima eficiencia a los equipos de detección utilizando componentes originales provistos por el fabricante.',
-    image: '/placeholder.png',
-
-    details: [
-
-    ]
-  },
+  }, 
   {
     id: 'sistematico',
     title: 'Investigación de Incidentes Método Sistémico',
