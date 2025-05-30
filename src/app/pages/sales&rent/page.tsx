@@ -34,7 +34,7 @@ const servicios = [
     id: 'izaje',
     title: 'Elementos de sujeción e izaje de carga',
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
-    image: '/izaje.jpg',
+    image: '/fijacion.jpg',
     details: [
       'Cursos de capacitación',
       'Asesoramiento',
