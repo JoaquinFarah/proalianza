@@ -66,7 +66,7 @@ const servicios = [
     id: 'mediciones',
     title: 'Mediciones higiénicas',
     description: '',
-    image: '/placeholder.png',
+    image: '/medicionhigienica.jpg',
 
     details: [
       'Medición legal puesta a tierra PAT',
