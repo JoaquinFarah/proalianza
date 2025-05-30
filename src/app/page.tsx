@@ -31,11 +31,11 @@ export default function Index() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 2000,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
   };
 
   return (
