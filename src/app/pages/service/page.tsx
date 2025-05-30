@@ -56,7 +56,7 @@ const servicios = [
     id: 'era',
     title: 'Mantenimiento de equipos autónomos. Carga de cilindros de alta y baja presión',
     description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
-    image: '/placeholder.png',
+    image: '/mantenimientoera.jpg',
 
     details: [
 
