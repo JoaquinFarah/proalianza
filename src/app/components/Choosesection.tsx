@@ -62,7 +62,7 @@ export default function ChooseSection() {
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
               Ofrecemos soluciones avanzadas para identificar y mitigar riesgos
-              en entornos laborales de alto riesgo
+              en entornos laborales
             </p>
           </div>
           <div className="flex flex-col items-center text-center">

@@ -68,7 +68,7 @@ const TripleLeft = () => (
               </div>
               <div className="text-3xl flex text-center items-center mt-10 text-pretty">
                 <p>
-                En un mundo donde la seguridad y la eficiencia son primordiales, ofrecemos soluciones prácticas que garantizan el éxito de tu proyecto. Nuestra experiencia en el sector nos permite brindar un servicio integral, adaptándonos a tus necesidades específicas y asegurando resultados óptimos.
+                Nuestra experiencia en el sector nos permite brindar un servicio integral, adaptándonos a tus necesidades específicas y asegurando resultados óptimos.
                 </p>
               </div>              
 
@@ -100,7 +100,7 @@ const TripleLeft = () => (
               ¡NO ES UN PROBLEMA!
               </h1>
               <p className="text-3xl flex text-center items-center mt-10 text-pretty">
-              Tenemos a nuestra disposición el mejor equipamiento para garantizar el éxito de las operaciones,asegurándonos que todo el personal esté capacitado y cuente con los materiales necesarios para realizar su trabajo de manera segura y eficiente.
+              Tenemos a nuestra disposición el mejor equipamiento para garantizar el éxito de las operaciones, asegurándonos que todo el personal esté capacitado y cuente con los materiales necesarios para realizar su trabajo de manera segura y eficiente.
               </p> 
               <p className="text-3xl flex text-center items-center mt-10 text-pretty">
               Nos destacamos por nuestra atención al cliente, compromiso con la calidad y un enfoque proactivo en la resolución de sus problemas.
