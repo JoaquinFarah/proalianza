@@ -9,7 +9,7 @@ const servicios = [
     id: 'inspeccion',
     title: 'Inspección de equipos de Torre',
     description: 'Incremente la productividad y eficiencia ya que los equipos y periféricos son probados a su máxima capacidad antes de iniciar un contrato o luego de una inspección cat. IV (IND) garantizando un óptimo funcionamiento durante la operación. También se obtiene un incremento en los niveles de seguridad en la operación y mejora en los indicadores de accidentabilidad. Tenemos basta experiencia en inspecciones visuales de seguridad como también de integridad.',
-    image: '/placeholder.png',
+    image: '/inspeccioneqtorre.jpg',
     details: [
 
     ]
@@ -18,7 +18,7 @@ const servicios = [
     id: 'optimizacion',
     title: 'Optimización de operaciones en equipo de torre',
     description: 'Es nuestra especialidad y lo que más nos apasiona, con énfasis en equipos de Workover y Pulling. Optimice sus operaciones al tiempo que incrementa la seguridad y reduce los costos operativos. Este programa plantea el desafío de poder incrementar la eficiencia y bajar costos de operación, mejorando a su vez los estándares de seguridad. Sabemos cómo hacerlo con o sin inversión. ',
-    image: '/placeholder.png',
+    image: '/optimizacion.jpg',
     details: [
 
     ]
@@ -46,7 +46,7 @@ const servicios = [
     id: 'sistematico',
     title: 'Investigación de Incidentes Método Sistémico',
     description: 'Nos especializamos en el modelo sistémico de investigación de incidentes, más allá del error humano o de la falla técnica, analizando los factores que están alejados del momento y lugar del suceso para una investigación exhaustiva que sirva para evitar la recurrencia de incidentes. ',
-    image: '/placeholder.png',
+    image: '/metodosistemico.jpg',
 
     details: [
 
