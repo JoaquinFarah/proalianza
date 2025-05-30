@@ -60,7 +60,7 @@ const servicios = [
     id: 'torre',
     title: 'Inspecciónes de Equipos de Torre',
     description: 'Ponemos a disposición nuestra amplia experiencia en la realización y dictado de cursos de Seguridad e Integridad de Equipos de Torre con nuestro instructor certificado por ModuSpec/Lloyd´s Register. Curso disponible con certificación nacional de WCI o internacional con el IADC.',
-    image: '/inspecciontorre.jpg',
+    image: '/torrepetroleo.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 16 o 40 hs. Dependiendo el nivel',
