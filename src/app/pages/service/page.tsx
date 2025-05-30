@@ -79,7 +79,7 @@ const servicios = [
     id: 'campo',
     title: 'Supervisión de campo',
     description: '',
-    image: '/placeholder.png',
+    image: '/supervisioncampo.jpg',
 
     details: [
       'Supervisión de Trabajos en altura',
