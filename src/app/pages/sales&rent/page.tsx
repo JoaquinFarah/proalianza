@@ -33,7 +33,7 @@ const servicios = [
   {
     id: 'izaje',
     title: 'Elementos de sujeción e izaje de carga',
-    description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
+    description: 'Comercializamos todos los productos para Sujeción e Izaje de cargas de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su calidad, versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
     image: '/fijacion.jpg',
     details: [
       'Cursos de capacitación',
