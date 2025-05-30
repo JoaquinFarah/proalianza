@@ -30,7 +30,7 @@ const servicios = [
     id: 'detectores',
     title: 'Detectores de Gases Portátiles',
     description: 'Brindamos capacitación en el correcto uso y mantenimiento de detectores portátiles.',
-    image: '/gasdetector.jpg',
+    image: '/msagas.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 3 hs. ',
