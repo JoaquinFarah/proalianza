@@ -22,8 +22,8 @@ export default function ProfilePage() {
         />
 
         <div className="absolute top-3/5 left-1/5 transform -translate-x-1/5 -translate-y-1 text-white text-4xl font-semibold text-center rounded-lg bg-gray-900/50 p-5 backdrop-blur-xs w-full">
-          <p className="uppercase">IMPULSAMOS EL ÉXITO DE TU PROYECTO </p>
-          <p>CON SOLUCIONES PRÁCTICAS</p>
+          <p className="uppercase">IMPULSAMOS EL <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">ÉXITO</span> DE TU PROYECTO </p>
+          <p>CON <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">SOLUCIONES</span> PRÁCTICAS</p>
         </div>
       </div>
 
