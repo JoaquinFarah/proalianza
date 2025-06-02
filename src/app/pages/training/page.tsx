@@ -44,7 +44,7 @@ const servicios = [
     id: 'era',
     title: 'Usos de ERA',
     description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
-    image: '/era.JPG',
+    image: '/paera.png',
     details: [
       'Modalidad: Presencial',
       'Duración: 3 Hs.',
