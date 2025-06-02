@@ -9,7 +9,7 @@ const servicios = [
     id: 'inspeccion',
     title: 'Inspección de equipos de Torre',
     description: 'Incremente la productividad y eficiencia ya que los equipos y periféricos son probados a su máxima capacidad antes de iniciar un contrato o luego de una inspección cat. IV (IND) garantizando un óptimo funcionamiento durante la operación. También se obtiene un incremento en los niveles de seguridad en la operación y mejora en los indicadores de accidentabilidad. Tenemos basta experiencia en inspecciones visuales de seguridad como también de integridad.',
-    image: '/inspeccioneqtorre.jpg',
+    image: '/painspecciontorre.jpg',
     details: [
 
     ]
