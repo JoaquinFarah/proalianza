@@ -84,7 +84,7 @@ const servicios = [
     id: 'drops',
     title: 'DROPS | Prevención Caída de Objetos',
     description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
-    image: '/drops.jpg',
+    image: '/padrops.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 8 hs.',
@@ -113,7 +113,7 @@ const Training = () => {
       <main className="flex-grow h-screen mt-20">
         
         <section>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
               {servicios.map((servicio) => (
                 <button

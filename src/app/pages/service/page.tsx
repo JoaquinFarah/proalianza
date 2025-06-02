@@ -54,7 +54,7 @@ const servicios = [
   },
   {
     id: 'era',
-    title: 'Mantenimiento de Equipos Autónomos. Carga de Cilindros de Alta y Baja Presión',
+    title: 'Mantenimiento de Equipos Autónomos. ',
     description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
     image: '/mantenimientoera.jpg',
 
@@ -97,10 +97,10 @@ const Service = () => {
     <div style={{ backgroundColor: '#f7950a' }} className="min-h-screen flex flex-col">
       <Navbar />
       <Whatsapp />
-      <main className="flex-grow h-screen mt-20 mb-20">
+      <main className="flex-grow h-screen mt-20 mb-50">
 
         <section>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
               {servicios.map((servicio) => (
                 <button
