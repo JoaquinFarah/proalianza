@@ -52,7 +52,7 @@ const servicios = [
   },
   {
     id: 'h2s',
-    title: 'Manejos de H2S',
+    title: 'H2S',
     description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
     image: '/h2s.jpg',
     details: [

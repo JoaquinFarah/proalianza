@@ -123,9 +123,7 @@ export default function ChooseSection() {
               Productos y Servicios de Óptima Calidad
             </h2>
             <p className="mt-3 text-2xl px-20 text-center text-pretty">
-              Los mejores materiales disponibles en el mercado garantizando la
-              la excelencia tanto a nuestro personal como a nuestros clientes, asegurando la tranquilidad para cumplir con las exigencias
-              de los mismos
+              Contamos con los mejores materiales disponibles en el mercado garantizando la excelencia tanto a nuestro personal como a nuestros clientes, asegurando la tranquilidad para cumplir con las exigencias de los mismos
             </p>
           </div>
           <div className="flex flex-col mt-5 items-center text-center">
