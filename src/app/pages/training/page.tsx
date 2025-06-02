@@ -72,7 +72,7 @@ const servicios = [
   },
   {
     id: 'rig',
-    title: 'Rig Pass | Pase al equipo',
+    title: 'Rig Pass | Pase al Equipo',
     description: 'Reflejamos toda la base que un Operario necesita para acceder a un equipo de torre. Orientación acerca del equipo y sus componentes. Medidas de seguridad. Riesgos inherentes  a cada tarea. Trabajos en Altura. Respuesta a emergencias. H2S. Levantamiento manual de cargas. Izaje de cargas. Permisos de trabajo. Análisis de Riesgos. Bloqueo y etiquetado. Reseña sobre medio ambiente. ',
     image: '/rigpass.jpg',
     details: [
@@ -82,7 +82,7 @@ const servicios = [
   },
   {
     id: 'drops',
-    title: 'DROPS | Prevención caída de objetos',
+    title: 'DROPS | Prevención Caída de Objetos',
     description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
     image: '/drops.jpg',
     details: [
