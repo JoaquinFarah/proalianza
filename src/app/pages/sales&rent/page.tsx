@@ -7,8 +7,8 @@ import Whatsapp from '@/app/components/Whatsapp';
 const servicios = [
   {
     id: 'era',
-    title: 'Equipos autónomos',
-    description: 'Venta y alquiler de equipos autónomos de última generación, con la mejor tecnología del mercado. Contamos con un equipo especializado para asesorarte en la compra o alquiler del equipo que mejor se adapte a tus necesidades.',
+    title: 'Equipos Autónomos',
+    description: 'Venta y Alquiler de equipos autónomos de última generación, con la mejor tecnología del mercado. Contamos con un equipo especializado para asesorarte en la compra o alquiler del equipo que mejor se adapte a tus necesidades.',
     image: '/paautonomos.jpg',
     details: [
       'Garantía por 1 año',
@@ -20,7 +20,7 @@ const servicios = [
   },
   {
     id: 'altura',
-    title: 'Elementos de protección para el trabajo en altura',
+    title: 'Elementos de Protección para el Trabajo en Altura',
     description: 'Comercializamos todos los productos y sistemas para Trabajos en Altura de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
     image: '/epp1.jpg',
     details: [
@@ -32,7 +32,7 @@ const servicios = [
   },
   {
     id: 'izaje',
-    title: 'Elementos de sujeción e izaje de carga',
+    title: 'Elementos de Sujeción e Izaje de Carga',
     description: 'Comercializamos todos los productos para Sujeción e Izaje de cargas de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
     image: '/fijacion.jpg',
     details: [
