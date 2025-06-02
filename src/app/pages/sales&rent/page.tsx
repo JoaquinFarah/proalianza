@@ -21,7 +21,7 @@ const servicios = [
   {
     id: 'altura',
     title: 'Elementos de protección para el trabajo en altura',
-    description: 'Comercializamos todos los productos y sistemas para Trabajos en Altura de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su calidad, versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
+    description: 'Comercializamos todos los productos y sistemas para Trabajos en Altura de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
     image: '/epp1.jpg',
     details: [
       'Evaluación de entornos de trabajo',
