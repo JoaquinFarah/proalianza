@@ -18,7 +18,7 @@ const servicios = [
     id: 'optimizacion',
     title: 'Optimización de Operaciones en Equipo de Torre',
     description: 'Es nuestra especialidad y lo que más nos apasiona, con énfasis en equipos de Workover y Pulling. Optimice sus operaciones al tiempo que incrementa la seguridad y reduce los costos operativos. Este programa plantea el desafío de poder incrementar la eficiencia y bajar costos de operación, mejorando a su vez los estándares de seguridad. Sabemos cómo hacerlo con o sin inversión. ',
-    image: '/optimizacion.jpg',
+    image: '/optimizacioneqtorre.jpg',
     details: [
 
     ]
@@ -36,7 +36,7 @@ const servicios = [
     id: 'drops',
     title: 'Auditorías de Prevención de Caída de Objetos (DROPS)',
     description: 'Revisión exhaustiva de cada elemento fijado en altura tomando como referencia las recomendaciones de las últimas versiones de DROPS. Los desvíos, dependiendo de su criticidad pueden ser tratados de inmediato o en un tiempo prudencial. El personal es capacitado in situ con propuestas de mejora y las acciones son seguidas semanalmente mediante la herramienta iAuditor lo que resulta en un servicio único y sin antecedentes.',
-    image: '/drops.jpg',
+    image: '/placeholder.png',
 
     details: [
 

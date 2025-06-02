@@ -85,7 +85,7 @@ const Workwithussection = () => (
           boxShadow: "0 2px 8px #0001",
         }}
       >
-        TRABAJA CON NOSOTROS
+        TRABAJEMOS JUNTOS
       </span>
       <TripleLeft />
     </div>

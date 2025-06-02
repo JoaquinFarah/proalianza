@@ -44,7 +44,7 @@ const servicios = [
     id: 'era',
     title: 'Usos de ERA',
     description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
-    image: '/paera.png',
+    image: '/placeholder.png',
     details: [
       'Modalidad: Presencial',
       'Duración: 3 Hs.',
@@ -52,7 +52,7 @@ const servicios = [
   },
   {
     id: 'h2s',
-    title: 'H2S',
+    title: 'Trabajos con H2S',
     description: 'Contamos con Instructor certificado por Total Safety (Houston) según lineamientos del programa ANSI Z 390.1. Ofrecemos además la posibilidad de certificar a los participantes con la prestigiosa WCI a nivel nacional o con el IADC a nivel internacional. ',
     image: '/h2s.jpg',
     details: [
@@ -84,7 +84,7 @@ const servicios = [
     id: 'drops',
     title: 'DROPS | Prevención Caída de Objetos',
     description: 'Este programa establece las condiciones obligatorias de seguridad que deben implementarse para la prevención o eliminación de los riesgos de caídas de objetos en altura, garantizando que los mismos se realicen adoptando las mejores prácticas de aseguramiento confiable y los máximos estándares de la industria.',
-    image: '/padrops.jpg',
+    image: '/drops.jpg',
     details: [
       'Modalidad: Presencial y on line',
       'Duración: 8 hs.',
@@ -113,7 +113,7 @@ const Training = () => {
       <main className="flex-grow h-screen mt-20">
         
         <section>
-          <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
               {servicios.map((servicio) => (
                 <button
