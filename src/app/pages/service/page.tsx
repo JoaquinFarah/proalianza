@@ -7,7 +7,7 @@ import Whatsapp from '@/app/components/Whatsapp';
 const servicios = [
   {
     id: 'inspeccion',
-    title: 'Inspección de equipos de Torre',
+    title: 'Inspección de Equipos de Torre',
     description: 'Incremente la productividad y eficiencia ya que los equipos y periféricos son probados a su máxima capacidad antes de iniciar un contrato o luego de una inspección cat. IV (IND) garantizando un óptimo funcionamiento durante la operación. También se obtiene un incremento en los niveles de seguridad en la operación y mejora en los indicadores de accidentabilidad. Tenemos basta experiencia en inspecciones visuales de seguridad como también de integridad.',
     image: '/painspecciontorre.jpg',
     details: [
@@ -16,7 +16,7 @@ const servicios = [
   },
   {
     id: 'optimizacion',
-    title: 'Optimización de operaciones en equipo de torre',
+    title: 'Optimización de Operaciones en Equipo de Torre',
     description: 'Es nuestra especialidad y lo que más nos apasiona, con énfasis en equipos de Workover y Pulling. Optimice sus operaciones al tiempo que incrementa la seguridad y reduce los costos operativos. Este programa plantea el desafío de poder incrementar la eficiencia y bajar costos de operación, mejorando a su vez los estándares de seguridad. Sabemos cómo hacerlo con o sin inversión. ',
     image: '/optimizacion.jpg',
     details: [
@@ -54,7 +54,7 @@ const servicios = [
   },
   {
     id: 'era',
-    title: 'Mantenimiento de equipos autónomos. Carga de cilindros de alta y baja presión',
+    title: 'Mantenimiento de Equipos Autónomos. Carga de Cilindros de Alta y Baja Presión',
     description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
     image: '/mantenimientoera.jpg',
 
@@ -64,7 +64,7 @@ const servicios = [
   },
   {
     id: 'mediciones',
-    title: 'Mediciones higiénicas',
+    title: 'Mediciones Higiénicas',
     description: '',
     image: '/medicionhigienica.jpg',
 
@@ -77,7 +77,7 @@ const servicios = [
   },
   {
     id: 'campo',
-    title: 'Supervisión de campo',
+    title: 'Supervisión de Campo',
     description: '',
     image: '/supervisioncampo.jpg',
 
