@@ -9,7 +9,7 @@ const servicios = [
     id: 'era',
     title: 'Equipos autónomos',
     description: 'Venta y alquiler de equipos autónomos de última generación, con la mejor tecnología del mercado. Contamos con un equipo especializado para asesorarte en la compra o alquiler del equipo que mejor se adapte a tus necesidades.',
-    image: '/autonomo.jpg',
+    image: '/paautonomos.jpg',
     details: [
       'Garantía por 1 año',
       'Manuales de uso',
