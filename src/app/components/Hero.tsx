@@ -27,7 +27,7 @@ export default function HeroSection() {
               ¿QUIÉNES SOMOS?
               </h1>
               <p className="mt-6 text-xl leading-8">
-              <span style={{ backgroundColor: '#f7950a' }} className="font-bold">Pro Alianza®</span> es una empresa de <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">Servicios de Asistencia Técnica, Capacitación, Entrenamiento, Calibración de Sistemas de Detección y Comercialización de Productos</span> para la Seguridad bajo el esquema de Sociedad de Acciones Simplificada (S.A.S). Brinda un servicio de calidad en su tipo contando a su vez con un equipo interdisciplinario con 30 años de experiencia en funciones claves de diversas empresas.
+              <span style={{ backgroundColor: '#f7950a' }} className="font-bold">Pro Alianza®</span> es una empresa de <span style={{ backgroundColor: '#f7950a' }} className=" font-bold">Servicios de Asistencia Técnica, Capacitación, Entrenamiento, Calibración de Sistemas de Detección y Comercialización de Productos</span> para la Seguridad bajo el esquema de Sociedad de Acciones Simplificada (S.A.S). Brinda un servicio de calidad contando a su vez con un equipo interdisciplinario con 30 años de experiencia en funciones claves de diversas empresas.
               </p>
               <h1 className="mt-50 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
               NUESTRA MISIÓN
