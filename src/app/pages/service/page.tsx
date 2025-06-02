@@ -24,10 +24,10 @@ const servicios = [
     ]
   },
   {
-    id: 'seguimiento',
+    id: 'auditor',
     title: 'Seguimiento Semanal de Acciones de Mejora/Correctivas con Herramienta iAuditor',
     description: 'Nuestros procesos de Inspección y Auditoría son cargados automáticamente en la plataforma iAuditor en campo, mientras se realiza el trabajo correspondiente. Con nuestra basta experiencia y con ayuda de dicha plataforma de inspección, capturamos las acciones de mejora, asignándolas a uno o varios responsables para un seguimiento semanal, verificando no solo el cierre de las mismas sino la calidad y el tiempo de la resolución.',
-    image: '/placeholder.png',
+    image: '/iaauditor.jpg',
     details: [
 
     ]
