@@ -29,21 +29,23 @@ export default function ContactForm() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-2">
         {/* Left side */}
         <div className="space-y-6">         
-          <div className="space-y-5 text-gray-700 ml-5">  
+          <div className="space-y-5 text-gray-700 ml-50">  
 
             <div className="flex items-center">
-              <MapPinIcon className="absolute w-20 h-10 text-white" />
+              <MapPinIcon className="absolute w-20 h-10 text-amber-500" />
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Dirección</h1>
               {/* <h1 style={{ backgroundColor: '#f7950a' }} className="text-4xl text-white font-bold p-1 rounded-sm">Dirección</h1> */}
             </div>
             <div>
               <button onClick={handleAddress} className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
-                <p>Cnel.Terrada 3907 - Perdriel, Luján de Cuyo, Mendoza</p>
+                <p>Cnel.Terrada 3907 - Perdriel <br/> Luján de Cuyo, Mendoza
+
+                </p>
               </button>
             </div>
 
             <div className="flex items-start gap-3">
-              <ClockIcon className="absolute w-20 h-10 text-white" />
+              <ClockIcon className="absolute w-20 h-10 text-amber-500" />
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Horarios de atención</h1>
             </div>
             <button className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
@@ -51,7 +53,7 @@ export default function ContactForm() {
               </button>
 
             <div className="flex items-start gap-3">
-              <DevicePhoneMobileIcon className="absolute w-20 h-10 text-white" />
+              <DevicePhoneMobileIcon className="absolute w-20 h-10 text-amber-500" />
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Teléfono</h1>
             </div>
             <button onClick={handleClick} className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
@@ -59,7 +61,7 @@ export default function ContactForm() {
             </button>
 
             <div className="flex items-start gap-3">
-              <EnvelopeIcon className="absolute w-20 h-10 text-white" />
+              <EnvelopeIcon className="absolute w-20 h-10 text-amber-500" />
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Correo</h1>
             </div>
             <div className="flex items-center gap-3">
@@ -69,7 +71,7 @@ export default function ContactForm() {
             </div>
 
             <div className="flex items-start gap-3">
-              <CameraIcon className="absolute w-20 h-10 text-white" />
+              <CameraIcon className="absolute w-20 h-10 text-amber-500" />
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Instagram</h1>
             </div>
             <div className="flex items-center gap-3">
