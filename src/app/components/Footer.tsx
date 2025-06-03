@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <div>
 
-      <div className="relative h-screen">
+      <div className="relative h-96">
         <Image
           src="/Footer.jpg"
           alt="Icono"
@@ -30,7 +30,7 @@ export default function Footer() {
           Somos un equipo de trabajo, con amplia experiencia en el ámbito industrial, lo que nos convierte en tu mejor elección
         </div>
 
-        <div className="absolute left-8 top-1/2 -translate-y-1/2 text-white text-3xl font-semibold p-5 max-w-4lg text-center">
+        <div className="absolute left-8 top-10/12 -translate-y-1/4 text-white text-3xl font-semibold p-5 max-w-4lg text-center">
           <p>
             Precisión que <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">impulsa</span> tu industria,
           </p>
@@ -42,7 +42,7 @@ export default function Footer() {
 
 
         <div className="absolute">
-          <div className="mt-113 left-80"
+          <div className="mt-100 left-80"
             style={{
               padding: "40px 0 20px 0",
               position: "relative",
