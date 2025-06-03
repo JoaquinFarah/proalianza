@@ -29,7 +29,7 @@ export default function ContactForm() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-2">
         {/* Left side */}
         <div className="space-y-6">         
-          <div className="space-y-5 text-gray-700 ml-50">  
+          <div className="space-y-5 text-gray-700 ml-43">  
 
             <div className="flex items-center">
               <MapPinIcon className="absolute w-20 h-10 text-amber-500" />
