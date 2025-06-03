@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from './components/Navbar';
-import Whatsapp from './components/Whatsapp';
+// import Whatsapp from './components/Whatsapp';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -41,7 +41,7 @@ export default function Index() {
   return (
     <div className="relative bg-gray-50">
       <Navbar />
-      <Whatsapp />
+      {/* <Whatsapp /> */}
 
       <div className="relative h-screen">
         <Slider {...settings}>
