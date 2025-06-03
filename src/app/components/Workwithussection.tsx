@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 const TripleRight = () => (
   <img
@@ -18,9 +21,24 @@ const TripleLeft = () => (
   />
 );
 
+// ⬇️ NUEVO COMPONENTE: Contador animado que se activa solo al entrar en pantalla
+const AnimatedCounter = ({ end }: { end: number }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
+  return (
+    <div ref={ref}>
+      {inView ? <CountUp end={end} duration={5} separator="," /> : 0}
+    </div>
+  );
+};
+
+// Valores actualizados: sin el "+" porque lo agregamos aparte
 const stats = [
   {
-    value: "+7000",
+    value: 7000,
     label: (
       <>
         Acciones de mejora<br />
@@ -31,14 +49,13 @@ const stats = [
         Perforación/<br />
         Workover/ Pulling &<br />
         Flush By/ Eq. Mineros/ Slik<br />
-        Line/ Wire Line/ Eq. de<br />        
-        Cementación & Fractura        
+        Line/ Wire Line/ Eq. de<br />
+        Cementación & Fractura
       </>
     ),
-    bold: false,
   },
   {
-    value: "+600",
+    value: 600,
     label: (
       <>
         Inspecciones<br />
@@ -46,10 +63,9 @@ const stats = [
         <b>NIVEL I</b>
       </>
     ),
-    bold: false,
   },
   {
-    value: "+200",
+    value: 200,
     label: (
       <>
         Inspecciones de<br />
@@ -57,7 +73,6 @@ const stats = [
         <b>NIVEL II</b>
       </>
     ),
-    bold: false,
   },
 ];
 
@@ -71,7 +86,7 @@ const Workwithussection = () => (
       fontFamily: "inherit",
     }}
   >
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 16, marginBottom: 24}}>
+    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 16, marginBottom: 24 }}>
       <TripleRight />
       <span
         style={{
@@ -89,16 +104,18 @@ const Workwithussection = () => (
       </span>
       <TripleLeft />
     </div>
-    <div style={{maxWidth: 900, margin: "0 auto 32px auto"}}>
-      <div style={{fontWeight: 700, fontSize: 26, marginBottom: 8}}>
+
+    <div style={{ maxWidth: 900, margin: "0 auto 32px auto" }}>
+      <div style={{ fontWeight: 700, fontSize: 26, marginBottom: 8 }}>
         Nuestra experiencia y compromiso nos permiten ofrecerte soluciones<br />
         integrales y eficientes para tu proyecto.
       </div>
-      <div style={{fontWeight: 700, fontSize: 26}}>
+      <div style={{ fontWeight: 700, fontSize: 26 }}>
         Contáctanos y descubre cómo podemos ayudarte a alcanzar tus<br />
         objetivos de manera efectiva y sostenible.
       </div>
     </div>
+
     <div
       style={{
         display: "flex",
@@ -108,6 +125,7 @@ const Workwithussection = () => (
         marginTop: 32,
       }}
     >
+
       {stats.map((stat, idx) => (
         <div
           key={idx}
@@ -124,14 +142,26 @@ const Workwithussection = () => (
             alignItems: "center",
           }}
         >
-          <div style={{fontSize: 32, fontWeight: 700, marginBottom: 8}}>
-            {stat.value}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: 32,
+              fontWeight: 700,
+              marginBottom: 8,
+              gap: 4,
+            }}
+          >
+            <span>+</span>
+            <AnimatedCounter end={stat.value} />
           </div>
-          <div style={{fontSize: 18, color: "#000", fontWeight: 400, textAlign: "center"}}>
+          <div style={{ fontSize: 18, color: "#000", fontWeight: 400, textAlign: "center" }}>
             {stat.label}
           </div>
         </div>
       ))}
+
     </div>
   </section>
 );
