@@ -44,7 +44,7 @@ const servicios = [
     id: 'era',
     title: 'Usos de ERA',
     description: '(Equipo de Respiración Autónomo): Esta capacitación es la base para poder ingresar al mundo de los espacios confinados, con las mejores técnicas para un buen uso y mantenimiento de los mismos. ',
-    image: '/paera.png',
+    image: '/placeholder.png',
     details: [
       'Modalidad: Presencial',
       'Duración: 3 Hs.',
@@ -113,7 +113,7 @@ const Training = () => {
       <main className="flex-grow h-screen mt-20">
         
         <section>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8 flex flex-wrap justify-center gap-4">
               {servicios.map((servicio) => (
                 <button

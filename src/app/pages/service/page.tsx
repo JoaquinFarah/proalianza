@@ -56,7 +56,7 @@ const servicios = [
     id: 'era',
     title: 'Mantenimiento de Equipos Autónomos. ',
     description: 'Aseguramos el máximo rendimiento y seguridad de tu equipo verificando el correcto funcionamiento de cada componente. ',
-    image: '/mantenimientoera.jpg',
+    image: '/paserviceera.png',
 
     details: [
 
