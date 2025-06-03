@@ -23,7 +23,7 @@ export default function Footer() {
           alt="Icono"
           width={3000}
           height={3000}
-          className="absolute top-0 left-0 w-screen h-screen object-fill shadow-xl brightness-65"
+          className="absolute top-0 left-0 w-screen h-screen object-cover shadow-xl brightness-65"
         />
 
         <div style={{ backgroundColor: '#f7950a' }} className="absolute text-3xl flex justify-center items-center mt-20 p-2 px-36 font-bold text-center text-white">
