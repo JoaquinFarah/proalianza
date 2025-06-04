@@ -21,7 +21,11 @@ const servicios = [
   {
     id: 'altura',
     title: 'Elementos de Protección para el Trabajo en Altura',
-    description: 'Comercializamos todos los productos y sistemas para Trabajos en Altura de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
+    description: (
+    <>
+    Comercializamos todos los productos y sistemas para Trabajos en Altura de la firma <strong>X-Urban</strong> de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.
+    </>
+    ),
     image: '/epp1.jpg',
     details: [
       'Evaluación de entornos de trabajo',
@@ -33,7 +37,11 @@ const servicios = [
   {
     id: 'izaje',
     title: 'Elementos de Sujeción e Izaje de Carga',
-    description: 'Comercializamos todos los productos para Sujeción e Izaje de cargas de la firma X-Urban de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.',
+    description: (
+    <>
+    Comercializamos todos los productos para Sujeción e Izaje de cargas de la firma <strong>X-Urban</strong> de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.
+    </>
+    ),
     image: '/fijacion.jpg',
     details: [
       'Cursos de capacitación',
