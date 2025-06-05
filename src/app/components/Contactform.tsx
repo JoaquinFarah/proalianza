@@ -1,5 +1,6 @@
 'use client';
 import { EnvelopeIcon, MapPinIcon, DevicePhoneMobileIcon, CameraIcon, ClockIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 export default function ContactForm() {
   const handleClick = () => {
@@ -75,9 +76,9 @@ export default function ContactForm() {
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Instagram</h1>
             </div>
             <div className="flex items-center gap-3">
-              <button className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
+              <Link href="https://www.instagram.com/proalianza.mza/" target="_blank" className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
                 <p>@proalianza.mdz</p>
-              </button>
+              </Link>
             </div>            
 
           </div>          
