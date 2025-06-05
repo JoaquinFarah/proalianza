@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Footer() {
@@ -83,13 +84,13 @@ export default function Footer() {
                   <br />
                 </div>
               </button>
-              <button className="text-center text-white hover: cursor-pointer">
+              <Link href="https://www.instagram.com/proalianza.mza/" target="_blank" className="text-center text-white hover: cursor-pointer">
                 <div style={{ fontSize: "2rem" }}>📷</div>
                 <div style={{ fontWeight: "bold", marginTop: 8 }}>
                   proalianza.mdz<br />
                   <br />
                 </div>
-              </button>
+              </Link>
             </div>
 
             <div
