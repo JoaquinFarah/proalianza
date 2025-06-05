@@ -15,6 +15,10 @@ export default function Footer() {
     const url = `https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVwhkNhCvfVmGBMWZnpDcTtnxmkCmRStqzrKZnpjMmnNbnNgccrXwtzMCVSbcBCJvtBqV`;
     window.open(url, '_blank');
   };
+  const handleAddress = () => {     
+    const url = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.983354692778!2d-68.87008154425357!3d-33.07509723188958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e75b74ddd56fb%3A0x12d4dd49a9ccc0c0!2sTerrada%203907%2C%20Mendoza%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1748361865236!5m2!1ses-419!2sus`;
+    window.open(url, '_blank');
+  };
   return (
     <div>
 
@@ -63,7 +67,7 @@ export default function Footer() {
               }}
             >
 
-              <button className="text-center text-white hover: cursor-pointer">
+              <button onClick={handleAddress} className="text-center text-white hover: cursor-pointer">
                 <div style={{ fontSize: "2rem" }}>📍</div>
                 <div style={{ fontWeight: "bold", marginTop: 8 }}>
                   Terrada 3907, Perdriel,<br />
