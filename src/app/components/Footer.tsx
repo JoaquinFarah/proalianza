@@ -115,7 +115,7 @@ export default function Footer() {
                 />
 
                 <Image
-                  src="/Logosinfondo.png"
+                  src="/logocompleto.jpeg"
                   alt="logo"
                   width={350}
                   height={350}
