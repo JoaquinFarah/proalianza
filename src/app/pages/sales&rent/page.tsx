@@ -42,7 +42,7 @@ const servicios = [
     Comercializamos todos los productos para Sujeción e Izaje de cargas de la firma <strong>X-Urban</strong> de calidad comprobada, innovación constante y variedad para cada necesidad. Desde soluciones técnicas hasta productos de uso diario. Reconocidos por su versatilidad y stock permanente. Brindamos también asesoramiento y capacitación a tu personal.
     </>
     ),
-    image: '/pafijacion.jpg',
+    image: '/pafijacion1.png',
     details: [
       'Cursos de capacitación',
       'Asesoramiento',
