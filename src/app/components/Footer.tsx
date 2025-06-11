@@ -122,8 +122,9 @@ export default function Footer() {
                   className="object-contain max-h-16"
                 />
               </div>
-            </div>
+            </div>            
           </div>
+          
         </div>
       </div>
     </div>
