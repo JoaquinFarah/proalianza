@@ -39,8 +39,7 @@ export default function ContactForm() {
             </div>
             <div>
               <button onClick={handleAddress} className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
-                <p>Cnel.Terrada 3907 - Perdriel <br/> Luján de Cuyo, Mendoza
-
+                <p className="text-start">Cnel.Terrada 3907 - Perdriel <br/> Luján de Cuyo, Mendoza
                 </p>
               </button>
             </div>
@@ -50,8 +49,8 @@ export default function ContactForm() {
               <h1 className="ml-15 text-2xl font-bold p-1 rounded-sm">Horarios de atención</h1>
             </div>
             <button className="ml-16 flex items-center gap-3 hover:cursor-pointer hover:text-blue-500 text-2xl font-semibold">
-                <p>Lunes a viernes de 9:00 a 18:00hs.</p>
-              </button>
+              <p className="text-start">Lunes a viernes de 9:00 a 18:00hs.</p>
+            </button>
 
             <div className="flex items-start gap-3">
               <DevicePhoneMobileIcon className="absolute w-20 h-10 text-amber-500" />
