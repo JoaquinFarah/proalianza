@@ -88,7 +88,7 @@ export default function Footer() {
                   <br />
                 </div>
               </button>
-              <Link href="https://www.instagram.com/proalianza.mza/" target="_blank" className="text-center text-white hover: cursor-pointer">
+              <Link href="https://www.instagram.com/proalianza.mdz/" target="_blank" className="text-center text-white hover: cursor-pointer">
                 <div style={{ fontSize: "2rem" }}>📷</div>
                 <div style={{ fontWeight: "bold", marginTop: 8 }}>
                   proalianza.mdz<br />
