@@ -20,22 +20,30 @@ export default function Footer() {
     window.open(url, '_blank');
   };
   return (
-    <div>
-
-      <div className="relative h-96">
+    <div className="relative h-screen min-h-screen -mr-10 bg-gray-50">
+      <div className="relative w-full h-full min-h-screen">
         <Image
           src="/Footer.jpg"
           alt="Icono"
-          width={3000}
-          height={3000}
-          className="absolute top-0 left-0 w-screen h-auto object-cover shadow-xl brightness-65"
+          fill
+          className="absolute top-0 left-0 w-full h-full object-cover shadow-xl brightness-65"
+          style={{ zIndex: 0 }}
         />
 
-        <div style={{ backgroundColor: '#f7950a' }} className="absolute text-3xl flex justify-center items-center mt-20 p-2 px-36 font-bold text-center text-white">
-          Somos un equipo de trabajo, con amplia experiencia en el ámbito industrial, lo que nos convierte en tu mejor elección
+        <div
+          style={{ backgroundColor: '#f7950a', zIndex: 1 }}
+          className="absolute text-lg sm:text-2xl md:text-3xl flex justify-center items-center mt-8 sm:mt-20 p-2 sm:px-10 md:px-36 font-bold text-center text-white w-full"
+        >
+          Somos un equipo de trabajo,
+          <br className="block sm:hidden" />
+          con amplia experiencia en 
+          <br className="block sm:hidden" />
+          el ámbito industrial, lo que nos
+          <br className="block sm:hidden" />
+          convierte en tu mejor elección
         </div>
 
-        <div className="absolute left-8 top-10/12 -translate-y-1/4 text-white text-3xl font-semibold p-5 max-w-4lg text-center">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-lg sm:text-2xl md:text-3xl font-semibold p-2 sm:p-5 max-w-xs sm:max-w-lg md:max-w-4xl text-center z-10">
           <p>
             Precisión que <span style={{ backgroundColor: '#f7950a' }} className=" text-white px-1 rounded">impulsa</span> tu industria,
           </p>
@@ -44,89 +52,65 @@ export default function Footer() {
           </p>
         </div>
 
-
-
-        <div className="absolute">
-          <div className="mt-120 left-80"
-            style={{
-              padding: "40px 0 20px 0",
-              position: "relative",
-              zIndex: 1,
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+        <div className="absolute w-full bottom-0 flex flex-col items-center z-10">
+          <div
+            className="
+              grid grid-cols-2 
+              md:flex md:flex-row 
+              justify-center items-center 
+              gap-4 sm:gap-6 md:gap-20 mb-6 
+              w-full max-w-md md:max-w-none
+            "
           >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                gap: "80px",
-                flexWrap: "wrap",
-                marginBottom: "30px",
-              }}
-            >
-
-              <button onClick={handleAddress} className="text-center text-white hover: cursor-pointer">
-                <div style={{ fontSize: "2rem" }}>📍</div>
-                <div style={{ fontWeight: "bold", marginTop: 8 }}>
-                  Terrada 3907, Perdriel,<br />
-                  Luján de Cuyo, Mendoza.
-                </div>
-              </button>
-              <button onClick={handleClick} className="text-center text-white hover: cursor-pointer">
-                <div style={{ fontSize: "2rem" }}>📞</div>
-                <div style={{ fontWeight: "bold", marginTop: 8 }}>
-                  +54 9 261 3829838<br />
-                  <br />
-                </div>
-              </button>
-              <button onClick={handleMail} className="text-center text-white hover: cursor-pointer">
-                <div style={{ fontSize: "2rem" }}>✉️</div>
-                <div style={{ fontWeight: "bold", marginTop: 8 }}>
-                  proalianzamdz@gmail.com<br />
-                  <br />
-                </div>
-              </button>
-              <Link href="https://www.instagram.com/proalianza.mdz/" target="_blank" className="text-center text-white hover: cursor-pointer">
-                <div style={{ fontSize: "2rem" }}>📷</div>
-                <div style={{ fontWeight: "bold", marginTop: 8 }}>
-                  proalianza.mdz<br />
-                  <br />
-                </div>
-              </Link>
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                gap: "40px",
-                alignItems: "center",
-              }}
-            >
-              <div className="flex justify-center">
-                <Image
-                  src="/banderaarg.jpg"
-                  alt="bandera"
-                  width={350}
-                  height={350}
-                  className="object-contain max-h-16"
-                />
-
-                <Image
-                  src="/logocompleto.jpeg"
-                  alt="logo"
-                  width={350}
-                  height={350}
-                  className="object-contain max-h-16"
-                />
+            <button onClick={handleAddress} className="text-center text-white hover:cursor-pointer">
+              <div className="text-2xl">📍</div>
+              <div className="font-bold mt-2 text-sm sm:text-base">
+                Terrada 3907, Perdriel,<br />
+                Luján de Cuyo, Mendoza.
               </div>
-            </div>            
+            </button>
+            <button onClick={handleClick} className="text-center text-white hover:cursor-pointer">
+              <div className="text-2xl">📞</div>
+              <div className="font-bold mt-2 text-sm sm:text-base">
+                +54 9 261 3829838<br />
+              </div>
+            </button>
+            <button onClick={handleMail} className="text-center text-white hover:cursor-pointer">
+              <div className="text-2xl">✉️</div>
+              <div className="font-bold mt-2 text-sm sm:text-base">
+                proalianzamdz@gmail.com<br />
+              </div>
+            </button>
+            <Link href="https://www.instagram.com/proalianza.mdz/" target="_blank" className="text-center text-white hover:cursor-pointer">
+              <div className="text-2xl">📷</div>
+              <div className="font-bold mt-2 text-sm sm:text-base">
+                proalianza.mdz<br />
+              </div>
+            </Link>
           </div>
-          
+
+          <div className="flex justify-center items-center gap-4 md:gap-10 mb-4">
+            <Image
+              src="/banderaarg.jpg"
+              alt="bandera"
+              width={80}
+              height={80}
+              className="object-contain max-h-10 sm:max-h-16"
+            />
+            <Image
+              src="/logocompleto.jpeg"
+              alt="logo"
+              width={120}
+              height={120}
+              className="object-contain max-h-10 sm:max-h-16"
+            />
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+
+
+
