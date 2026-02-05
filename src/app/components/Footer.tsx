@@ -34,11 +34,11 @@ export default function Footer() {
           style={{ backgroundColor: '#f7950a', zIndex: 1 }}
           className="absolute text-lg sm:text-2xl md:text-3xl flex justify-center items-center mt-8 sm:mt-20 p-2 sm:px-10 md:px-36 font-bold text-center text-white w-full"
         >
-          Somos un equipo de trabajo,
+          Somos un equipo de trabajo,{" "}
           <br className="block sm:hidden" />
-          con amplia experiencia en 
+          con amplia experiencia en {" "}
           <br className="block sm:hidden" />
-          el ámbito industrial, lo que nos
+          el ámbito industrial, lo que nos{" "}
           <br className="block sm:hidden" />
           convierte en tu mejor elección
         </div>
